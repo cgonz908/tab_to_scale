@@ -1,0 +1,1071 @@
+
+<!doctype html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<script>
+    (function () {
+        var isTouch = 'ontouchstart' in window || 'onmsgesturechange' in window;
+        var isMac = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'].indexOf(window.navigator.platform) > -1;
+
+        if (isMac && isTouch) {
+            var date = new Date();
+            date.setFullYear(date.getFullYear() + 1);
+
+            document.cookie = '_ug_force_ipad=1;path=/;domain=.ultimate-guitar.com;expires=' + date.toUTCString() + ';';
+            window.location = window.location.href
+        }
+    })()
+</script>
+<script>
+    !function(n,e){var t,o,i,c=[],f={passive:!0,capture:!0},r=new Date,a="pointerup",u="pointercancel";function p(n,c){t||(t=c,o=n,i=new Date,w(e),s())}function s(){o>=0&&o<i-r&&(c.forEach(function(n){n(o,t)}),c=[])}function l(t){if(t.cancelable){var o=(t.timeStamp>1e12?new Date:performance.now())-t.timeStamp;"pointerdown"==t.type?function(t,o){function i(){p(t,o),r()}function c(){r()}function r(){e(a,i,f),e(u,c,f)}n(a,i,f),n(u,c,f)}(o,t):p(o,t)}}function w(n){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(e){n(e,l,f)})}w(n),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){c.push(n),s()}}(addEventListener,removeEventListener);
+</script>
+
+<link rel="preload" href="https://tabs.ultimate-guitar.com/static/public/build/ug_react/202012/6laY.95b3c45f7729e8c7060c5b639a08df48.js" as="script" />
+<link rel="preload" href="https://tabs.ultimate-guitar.com/static/public/build/ug_react/202012/7VJW.03b5b54687ab8bf489f238843f1f299e.js" as="script" />
+<link rel="preload" href="https://tabs.ultimate-guitar.com/static/public/build/ug_react/ug~runtime.177adceae2d4ed52806e924d9fb79b1e.js" as="script" />
+<link rel="preload" href="https://tabs.ultimate-guitar.com/static/public/build/ug_react/202012/oNoF.aa18cb36f38bac82163ccafd7861c4ad.js" as="script" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+<meta property="fb:app_id" content="539490962762175">
+<meta property="og:type" content="music.song">
+<meta property="og:title" content="Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (Tab)">
+<meta property="og:description" content="TAB by Stevie Ray Vaughan &amp; Double Trouble">
+<meta property="og:image" content="https://tabs.ultimate-guitar.com/static/_img/ug-logo-fb.png">
+<title>PRIDE AND JOY TAB by Stevie Ray Vaughan &amp; Double Trouble @ Ultimate-Guitar.Com</title>
+<meta name="keywords" content="Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (Tab), Tab, Stevie Ray Vaughan &amp; Double Trouble, Ultimate-Guitar.Com, ug">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=1280, minimum-scale=0.1, maximum-scale=5.0">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/cpjmidngbpgnobnojpjgkidfnapkbieg">
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="GS6scuS4CSVUiEQVKYq8l5l67c1R-y2MHy9UFyE2YfFMa54f1dBCTRW8F14d3c-61TienRLIfeZSazJIGGErlQ==">
+            <link rel="search"
+    type="application/opensearchdescription+xml"
+    href="//tabs.ultimate-guitar.com/static/opensearch/opensearch.xml"
+    title="Ultmate-Guitar tabs & chords search" />    <meta name="theme-color" content="#272727">
+    
+    <link rel="manifest" href="/manifest_new.json">
+<link rel="icon" type="image/x-icon" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/favicon.ico">
+<link rel="shortcut icon" type="image/png" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/favicon.png" />
+<link rel="apple-touch-icon" sizes="32x32" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-48x48_ver2.png" />
+<link rel="apple-touch-icon" sizes="48x48" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-48x48_ver2.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-72x72_ver2.png" />
+<link rel="apple-touch-icon" sizes="96x96" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-96x96_ver2.png" />
+<link rel="apple-touch-icon" sizes="144x14" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-144x144_ver2.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-192x192_ver2.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="//tabs.ultimate-guitar.com/static/public/img/product_icons/ug/apple-touch-icon-512x512_ver2.png" />
+<meta name="application-name" content="Ultimate Guitar" />
+    
+        <script>
+        var UGERROR = {
+            errors: [],
+            loggerLoaded: false,
+        };
+        var oldOnError = window.onerror;
+        var loadScript = function(src, resolve) {
+            UGERROR.loggerLoaded = true;
+            var script = document.createElement('script');
+            script.async=true;
+            script.type = 'text/javascript';
+            script.src = src;
+
+            var changeState = function() {
+                if (!loaded) {
+                    resolve()
+                    loaded = true;
+                }
+            };
+            var loaded;
+
+            script.onreadystatechange = changeState;
+            script.onload = changeState;
+
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(script, node);
+        };
+
+        UGERROR.loadErrorLogger = function (release) {
+            var whitelistUrls = [
+                new RegExp('https://tabs.ultimate-guitar.com/static/public'),
+            ];
+
+            if (window.location.pathname !== '/') {
+                whitelistUrls.push(new RegExp(window.location.href))
+            }
+
+            var tags = {
+                source: 'tabs',
+                country: 'US',
+                isProUser: false,
+                isAuthenticated: false,
+                userId: '0',
+            };
+
+            !UGERROR.loggerLoaded && loadScript('https://tabs.ultimate-guitar.com/static/vendor/centry/raven.3.27.0.min.js', function() {
+                window.onerror = oldOnError;
+                window.Raven.setUserContext({
+                    userId: '0'
+                });
+                window.Raven.config('https://71cf858585c249f5b0f360c3ab811c84@sentry10.ultimate-guitar.com/7', {
+                    release: release,
+                    whitelistUrls: whitelistUrls,
+                    tags: tags
+                }).install();
+
+                var messages = UGERROR.errors.map(function(err) {
+                    return err[0];
+                });
+                UGERROR.errors
+                    .filter(function(error, index) {
+                        return messages.indexOf(error[0]) === index;
+                    })
+                    .forEach(function(args) {
+                        if (args.length > 1) {
+                            window.onerror.apply(this, args);
+                        } else if (typeof args[0] === 'string') {
+                            window.Raven.captureMessage(args[0]);
+                        } else {
+                            window.Raven.captureException(args[0]);
+                        }
+                    });
+            })
+        };
+
+        window.onerror = function() {
+            UGERROR.errors.push(arguments);
+            oldOnError && oldOnError.apply(this, arguments);
+
+            if (!UGERROR.hasFirstError) {
+                function load() {
+                    UGERROR.loadErrorLogger("ug-web_1.08.84");
+                }
+                if (document.readyState === 'complete') {
+                    load();
+                } else {
+                    window.addEventListener('load', load)
+                }
+                UGERROR.hasFirstError = true
+            }
+        };
+    </script>
+
+                <script>
+        (function () {
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                    window.navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                        registrations.forEach(function(registration) {
+                            if (
+                                registration.active.scriptURL.indexOf('sw_ug.js') !== -1
+                                ||
+                                registration.active.scriptURL.indexOf('sw_ug_v2.js') !== -1
+                            ) {
+                                registration.unregister()
+                            }
+                        })
+                    })
+                    window.navigator.serviceWorker.register('/sw_ug_v3.js').catch(function(error) {})
+                })
+            }
+        })()
+    </script>
+                    <script>
+function loadGoogleCmpTcf2() {
+    (function () {
+        'use strict';
+        var g = function (a) {
+            var b = 0;
+            return function () {
+                return b < a.length ? {done: !1, value: a[b++]} : {done: !0}
+            }
+        }, l = this || self, m = /^[\w+/_-]+[=]{0,2}$/, p = null, q = function () {
+        }, r = function (a) {
+            var b = typeof a;
+            if ("object" == b) if (a) {
+                if (a instanceof Array) return "array";
+                if (a instanceof Object) return b;
+                var c = Object.prototype.toString.call(a);
+                if ("[object Window]" == c) return "object";
+                if ("[object Array]" == c || "number" == typeof a.length && "undefined" != typeof a.splice && "undefined" != typeof a.propertyIsEnumerable && !a.propertyIsEnumerable("splice")) return "array";
+                if ("[object Function]" == c || "undefined" != typeof a.call && "undefined" != typeof a.propertyIsEnumerable && !a.propertyIsEnumerable("call")) return "function"
+            } else return "null"; else if ("function" == b && "undefined" == typeof a.call) return "object";
+            return b
+        }, u = function (a, b) {
+            function c() {
+            }
+
+            c.prototype = b.prototype;
+            a.prototype = new c;
+            a.prototype.constructor = a
+        };
+        var v = function (a, b) {
+            Object.defineProperty(l, a, {
+                configurable: !1, get: function () {
+                    return b
+                }, set: q
+            })
+        };
+        var y = function (a, b) {
+            this.b = a === w && b || "";
+            this.a = x
+        }, x = {}, w = {};
+        var aa = function (a, b) {
+            a.src = b instanceof y && b.constructor === y && b.a === x ? b.b : "type_error:TrustedResourceUrl";
+            if (null === p) b:{
+                b = l.document;
+                if ((b = b.querySelector && b.querySelector("script[nonce]")) && (b = b.nonce || b.getAttribute("nonce")) && m.test(b)) {
+                    p = b;
+                    break b
+                }
+                p = ""
+            }
+            b = p;
+            b && a.setAttribute("nonce", b)
+        };
+        var z = function () {
+            return Math.floor(2147483648 * Math.random()).toString(36) + Math.abs(Math.floor(2147483648 * Math.random()) ^ +new Date).toString(36)
+        };
+        var A = function (a, b) {
+            b = String(b);
+            "application/xhtml+xml" === a.contentType && (b = b.toLowerCase());
+            return a.createElement(b)
+        }, B = function (a) {
+            this.a = a || l.document || document
+        };
+        B.prototype.appendChild = function (a, b) {
+            a.appendChild(b)
+        };
+        var C = function (a, b, c, d, e, f) {
+            try {
+                var k = a.a, h = A(a.a, "SCRIPT");
+                h.async = !0;
+                aa(h, b);
+                k.head.appendChild(h);
+                h.addEventListener("load", function () {
+                    e();
+                    d && k.head.removeChild(h)
+                });
+                h.addEventListener("error", function () {
+                    0 < c ? C(a, b, c - 1, d, e, f) : (d && k.head.removeChild(h), f())
+                })
+            } catch (n) {
+                f()
+            }
+        };
+        var ba = l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"), ca = l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="), da = l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"), ea = function (a, b, c) {
+            this.b = a;
+            this.f = new B(this.b);
+            this.a = null;
+            this.c = [];
+            this.g = !1;
+            this.i = b;
+            this.h = c
+        }, F = function (a) {
+            if (a.b.body && !a.g) {
+                var b =
+                    function () {
+                        D(a);
+                        l.setTimeout(function () {
+                            return E(a, 3)
+                        }, 50)
+                    };
+                C(a.f, a.i, 2, !0, function () {
+                    l[a.h] || b()
+                }, b);
+                a.g = !0
+            }
+        }, D = function (a) {
+            for (var b = G(1, 5), c = 0; c < b; c++) {
+                var d = H(a);
+                a.b.body.appendChild(d);
+                a.c.push(d)
+            }
+            b = H(a);
+            b.style.bottom = "0";
+            b.style.left = "0";
+            b.style.position = "fixed";
+            b.style.width = G(100, 110).toString() + "%";
+            b.style.zIndex = G(2147483544, 2147483644).toString();
+            b.style["background-color"] = I(249, 259, 242, 252, 219, 229);
+            b.style["box-shadow"] = "0 0 12px #888";
+            b.style.color = I(0, 10, 0, 10, 0, 10);
+            b.style.display =
+                "flex";
+            b.style["justify-content"] = "center";
+            b.style["font-family"] = "Roboto, Arial";
+            c = H(a);
+            c.style.width = G(80, 85).toString() + "%";
+            c.style.maxWidth = G(750, 775).toString() + "px";
+            c.style.margin = "24px";
+            c.style.display = "flex";
+            c.style["align-items"] = "flex-start";
+            c.style["justify-content"] = "center";
+            d = A(a.f.a, "IMG");
+            d.className = z();
+            d.src = ba;
+            d.style.height = "24px";
+            d.style.width = "24px";
+            d.style["padding-right"] = "16px";
+            var e = H(a), f = H(a);
+            f.style["font-weight"] = "bold";
+            f.textContent = ca;
+            var k = H(a);
+            k.textContent = da;
+            J(a,
+                e, f);
+            J(a, e, k);
+            J(a, c, d);
+            J(a, c, e);
+            J(a, b, c);
+            a.a = b;
+            a.b.body.appendChild(a.a);
+            b = G(1, 5);
+            for (c = 0; c < b; c++) d = H(a), a.b.body.appendChild(d), a.c.push(d)
+        }, J = function (a, b, c) {
+            for (var d = G(1, 5), e = 0; e < d; e++) {
+                var f = H(a);
+                b.appendChild(f)
+            }
+            b.appendChild(c);
+            c = G(1, 5);
+            for (d = 0; d < c; d++) e = H(a), b.appendChild(e)
+        }, G = function (a, b) {
+            return Math.floor(a + Math.random() * (b - a))
+        }, I = function (a, b, c, d, e, f) {
+            return "rgb(" + G(Math.max(a, 0), Math.min(b, 255)).toString() + "," + G(Math.max(c, 0), Math.min(d, 255)).toString() + "," + G(Math.max(e, 0), Math.min(f,
+                255)).toString() + ")"
+        }, H = function (a) {
+            a = A(a.f.a, "DIV");
+            a.className = z();
+            return a
+        }, E = function (a, b) {
+            0 >= b || null != a.a && 0 != a.a.offsetHeight && 0 != a.a.offsetWidth || (fa(a), D(a), l.setTimeout(function () {
+                return E(a, b - 1)
+            }, 50))
+        }, fa = function (a) {
+            var b = a.c;
+            var c = "undefined" != typeof Symbol && Symbol.iterator && b[Symbol.iterator];
+            b = c ? c.call(b) : {next: g(b)};
+            for (c = b.next(); !c.done; c = b.next()) (c = c.value) && c.parentNode && c.parentNode.removeChild(c);
+            a.c = [];
+            (b = a.a) && b.parentNode && b.parentNode.removeChild(b);
+            a.a = null
+        };
+        var ia = function (a, b, c, d, e) {
+            var f = ha(c), k = function (n) {
+                n.appendChild(f);
+                l.setTimeout(function () {
+                    f ? (0 !== f.offsetHeight && 0 !== f.offsetWidth ? b() : a(), f.parentNode && f.parentNode.removeChild(f)) : a()
+                }, d)
+            }, h = function (n) {
+                document.body ? k(document.body) : 0 < n ? l.setTimeout(function () {
+                    h(n - 1)
+                }, e) : b()
+            };
+            h(3)
+        }, ha = function (a) {
+            var b = document.createElement("div");
+            b.className = a;
+            b.style.width = "1px";
+            b.style.height = "1px";
+            b.style.position = "absolute";
+            b.style.left = "-10000px";
+            b.style.top = "-10000px";
+            b.style.zIndex = "-10000";
+            return b
+        };
+        var K = {}, L = null;
+        var M = function () {
+        }, N = "function" == typeof Uint8Array, O = function (a, b) {
+            a.b = null;
+            b || (b = []);
+            a.j = void 0;
+            a.f = -1;
+            a.a = b;
+            a:{
+                if (b = a.a.length) {
+                    --b;
+                    var c = a.a[b];
+                    if (!(null === c || "object" != typeof c || Array.isArray(c) || N && c instanceof Uint8Array)) {
+                        a.g = b - a.f;
+                        a.c = c;
+                        break a
+                    }
+                }
+                a.g = Number.MAX_VALUE
+            }
+            a.i = {}
+        }, P = [], Q = function (a, b) {
+            if (b < a.g) {
+                b += a.f;
+                var c = a.a[b];
+                return c === P ? a.a[b] = [] : c
+            }
+            if (a.c) return c = a.c[b], c === P ? a.c[b] = [] : c
+        }, R = function (a, b, c) {
+            a.b || (a.b = {});
+            if (!a.b[c]) {
+                var d = Q(a, c);
+                d && (a.b[c] = new b(d))
+            }
+            return a.b[c]
+        };
+        M.prototype.h = N ? function () {
+            var a = Uint8Array.prototype.toJSON;
+            Uint8Array.prototype.toJSON = function () {
+                var b;
+                void 0 === b && (b = 0);
+                if (!L) {
+                    L = {};
+                    for (var c = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""), d = ["+/=", "+/", "-_=", "-_.", "-_"], e = 0; 5 > e; e++) {
+                        var f = c.concat(d[e].split(""));
+                        K[e] = f;
+                        for (var k = 0; k < f.length; k++) {
+                            var h = f[k];
+                            void 0 === L[h] && (L[h] = k)
+                        }
+                    }
+                }
+                b = K[b];
+                c = [];
+                for (d = 0; d < this.length; d += 3) {
+                    var n = this[d], t = (e = d + 1 < this.length) ? this[d + 1] : 0;
+                    h = (f = d + 2 < this.length) ? this[d + 2] : 0;
+                    k = n >> 2;
+                    n = (n &
+                        3) << 4 | t >> 4;
+                    t = (t & 15) << 2 | h >> 6;
+                    h &= 63;
+                    f || (h = 64, e || (t = 64));
+                    c.push(b[k], b[n], b[t] || "", b[h] || "")
+                }
+                return c.join("")
+            };
+            try {
+                return JSON.stringify(this.a && this.a, S)
+            } finally {
+                Uint8Array.prototype.toJSON = a
+            }
+        } : function () {
+            return JSON.stringify(this.a && this.a, S)
+        };
+        var S = function (a, b) {
+            return "number" !== typeof b || !isNaN(b) && Infinity !== b && -Infinity !== b ? b : String(b)
+        };
+        M.prototype.toString = function () {
+            return this.a.toString()
+        };
+        var T = function (a) {
+            O(this, a)
+        };
+        u(T, M);
+        var U = function (a) {
+            O(this, a)
+        };
+        u(U, M);
+        var ja = function (a, b) {
+            this.c = new B(a);
+            var c = R(b, T, 5);
+            c = new y(w, Q(c, 4) || "");
+            this.b = new ea(a, c, Q(b, 4));
+            this.a = b
+        }, ka = function (a, b, c, d) {
+            b = new T(b ? JSON.parse(b) : null);
+            b = new y(w, Q(b, 4) || "");
+            C(a.c, b, 3, !1, c, function () {
+                ia(function () {
+                    F(a.b);
+                    d(!1)
+                }, function () {
+                    d(!0)
+                }, Q(a.a, 2), Q(a.a, 3), Q(a.a, 1))
+            })
+        };
+        var la = function (a, b) {
+            V(a, "internal_api_load_with_sb", function (c, d, e) {
+                ka(b, c, d, e)
+            });
+            V(a, "internal_api_sb", function () {
+                F(b.b)
+            })
+        }, V = function (a, b, c) {
+            a = l.btoa(a + b);
+            v(a, c)
+        }, W = function (a, b, c) {
+            for (var d = [], e = 2; e < arguments.length; ++e) d[e - 2] = arguments[e];
+            e = l.btoa(a + b);
+            e = l[e];
+            if ("function" == r(e)) e.apply(null, d); else throw Error("API not exported.");
+        };
+        var X = function (a) {
+            O(this, a)
+        };
+        u(X, M);
+        var Y = function (a) {
+            this.h = window;
+            this.a = a;
+            this.b = Q(this.a, 1);
+            this.f = R(this.a, T, 2);
+            this.g = R(this.a, U, 3);
+            this.c = !1
+        };
+        Y.prototype.start = function () {
+            ma();
+            var a = new ja(this.h.document, this.g);
+            la(this.b, a);
+            na(this)
+        };
+        var ma = function () {
+            var a = function () {
+                if (!l.frames.googlefcPresent) if (document.body) {
+                    var b = document.createElement("iframe");
+                    b.style.display = "none";
+                    b.style.width = "0px";
+                    b.style.height = "0px";
+                    b.style.border = "none";
+                    b.style.zIndex = "-1000";
+                    b.style.left = "-1000px";
+                    b.style.top = "-1000px";
+                    b.name = "googlefcPresent";
+                    document.body.appendChild(b)
+                } else l.setTimeout(a, 5)
+            };
+            a()
+        }, na = function (a) {
+            var b = Date.now();
+            W(a.b, "internal_api_load_with_sb", a.f.h(), function () {
+                var c;
+                var d = a.b, e = l[l.btoa(d + "loader_js")];
+                if (e) {
+                    e = l.atob(e);
+                    e = parseInt(e, 10);
+                    d = l.btoa(d + "loader_js").split(".");
+                    var f = l;
+                    d[0] in f || "undefined" == typeof f.execScript || f.execScript("var " + d[0]);
+                    for (; d.length && (c = d.shift());) d.length ? f[c] && f[c] !== Object.prototype[c] ? f = f[c] : f = f[c] = {} : f[c] = null;
+                    c = Math.abs(b - e);
+                    c = 1728E5 > c ? 0 : c
+                } else c = -1;
+                0 != c && (W(a.b, "internal_api_sb"), Z(a, Q(a.a, 6)))
+            }, function (c) {
+                Z(a, c ? Q(a.a, 4) : Q(a.a, 5))
+            })
+        }, Z = function (a, b) {
+            a.c || (a.c = !0, a = new l.XMLHttpRequest, a.open("GET", b, !0), a.send())
+        };
+        (function (a, b) {
+            l[a] = function (c) {
+                for (var d = [], e = 0; e < arguments.length; ++e) d[e - 0] = arguments[e];
+                l[a] = q;
+                b.apply(null, d)
+            }
+        })("__d3lUW8vwsKlB__", function (a) {
+            "function" == typeof window.atob && (a = window.atob(a), a = new X(a ? JSON.parse(a) : null), (new Y(a)).start())
+        });
+    }).call(this);
+
+    window.__d3lUW8vwsKlB__("WyJkZGY2ZGJkNjczOTdkMzZhIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4VXU3b0Fpd1ROMml2aVRnVURsc25TdlFZVG90eVB3Wk40UzlzaUwwMDdpRlRQTk51aWhjNkV2NktoYldDclY2T2RpakQtZm1sUUNpak91NVJVQUk1VVx1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiWkdSbU5tUmlaRFkzTXprM1pETTJZUVx1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC9kZGY2ZGJkNjczOTdkMzZhLmpzP3VzcXBcdTAwM2RDQWMiXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYWTVSY0NGSjBuWUpNajZRVmZXWlYyX1ZUU280c2NSS2ZIQzdBYno0R1I5cDFReS1Jcm11aEljSXhnTTZNYk8wTGQyOEc0ZDREV2Zqd1ZTaWNLP2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VllRNHdrUFVtZzdzWVY3QlRiblRGQnZTYzNnemtGQ2hGeFRnUzIyUEQwd0VneEo2REdyVUU5Ykc5SnVCUVVFRkFqWHFTMlhCV21pQnFHRnh1YT9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYNVd5bUtaMkhiSVExUjVEMi0xT1dhTlJTZGxHejBMYl9oNjZkUTVCOGhMajNxUEJ2TTJNN09SdWZ5QnZtT1JtSjhCMTBXdTU2Tk9BanBhVHVJP3NiZlx1MDAzZDIiXQo=");
+}
+
+function loadQuantcastCmpTcf2() {
+    var host = window.location.hostname;
+    var element = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    var url = 'https://quantcast.mgr.consensu.org'
+        .concat('/choice/', 'DZZa7nKCW8kGP', '/', host, '/choice.js')
+    element.async = true;
+    element.type = 'text/javascript';
+    element.src = url;
+
+    firstScript.parentNode.insertBefore(element, firstScript);
+}
+</script>
+                                    <style>
+        #ad_cs_5723252_300_250 > div > iframe:only-child {
+            display: none;
+        }
+    </style>
+    <script>
+        function loadPubmaticIh() {
+            var purl = window.location.href;
+            var url = '//ads.pubmatic.com/AdServer/js/pwt/72623/2781';
+            var profileVersionId = '';
+            if(purl.indexOf('pwtv=')>0){
+                var regexp = /pwtv=(.*?)(&|$)/g;
+                var matches = regexp.exec(purl);
+                if(matches.length >= 2 && matches[1].length > 0){
+                    profileVersionId = '/'+matches[1];
+                }
+            }
+            var wtads = document.createElement('script');
+            wtads.async = true;
+            wtads.type = 'text/javascript';
+            wtads.src = url+profileVersionId+'/pwt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(wtads, node);
+        }
+
+        document.domain = 'ultimate-guitar.com';
+
+                var pbjs = pbjs || {};
+        pbjs.que = pbjs.que || [];
+
+                var googletag = window.googletag || {};
+        googletag.cmd = googletag.cmd || [];
+
+                var biddingHelpers = {
+            prebidScriptLoadStarted: false,
+            gptLoadStarted: false,
+            loadScript: function (src, errCb, sucCb, parent) {
+                var script = document.createElement('script');
+                script.async = true;
+                script.type = 'text/javascript';
+                script.src = src;
+                if (typeof errCb === 'function') {
+                    script.addEventListener('error', errCb);
+                }
+                if (typeof sucCb === 'function') {
+                    script.addEventListener('load', sucCb);
+                }
+
+                if (parent) {
+                    parent.insertAdjacentElement('afterbegin', script);
+                } else {
+                    var node = document.getElementsByTagName('script')[0];
+                    node.parentNode.insertBefore(script, node);
+                }
+            },
+            loadPrebid: function () {
+                this.loadScript('//js-sec.indexww.com/ht/p/184163-80734171996343.js');
+                this.prebidScriptLoad();
+            },
+            prebidScriptLoad: function() {
+                if (this.prebidScriptLoadStarted) {
+                    return
+                }
+                this.prebidScriptLoadStarted = true
+                this.loadScript('https://tabs.ultimate-guitar.com/static/public/build/prebid/prebid_ver1607171785.js', function () {
+                    window.UGAPP.bidding.prebidLoadError = true;
+                });
+            },
+            loadCmpTcf2: function(cb) {
+                                    loadQuantcastCmpTcf2();
+                
+                if (typeof cb === 'function') {
+                    this.onTcfReady(cb);
+                }
+            },
+            onTcfReady: function(cb) {
+                function waitForTcf(tcData) {
+                    if (!tcData || tcData === true) {
+                        return;
+                    }
+
+                    if (['tcloaded', 'useractioncomplete'].indexOf(tcData.eventStatus) !== -1) {
+                        window.__tcfapi('removeEventListener', 2, waitForTcf, tcData.listenerId);
+                        var hasNecessaryPurposes = tcData.purpose && tcData.purpose.consents && tcData.purpose.consents[1];
+                        if (hasNecessaryPurposes) {
+                            [2, 7, 9, 10].forEach(function(id) {
+                                if (!(
+                                    tcData.purpose && tcData.purpose.consents && tcData.purpose.consents[id] ||
+                                    tcData.purpose && tcData.purpose.egitimateInterests && tcData.purpose.egitimateInterests[id]
+                                )) {
+                                    hasNecessaryPurposes = false;
+                                }
+                            });
+                        }
+
+                        if (typeof cb === 'function') {
+                            cb(tcData, hasNecessaryPurposes);
+                        }
+                    }
+                }
+
+                window.__tcfapi('addEventListener', 2, waitForTcf);
+            },
+            loadAmazonApstag: function () {
+                !function (a9, a, p, s, t, A, g) {
+                    if (a[a9]) return;
+
+                    function q(c, r) {
+                        a[a9]._Q.push([c, r])
+                    }
+
+                    a[a9] = {
+                        init: function () {
+                            q("i", arguments)
+                        },
+                        fetchBids: function () {
+                            q("f", arguments)
+                        },
+                        setDisplayBids: function () {
+                        },
+                        targetingKeys: function () {
+                            return []
+                        }, _Q: []
+                    };
+                    A = p.createElement(s);
+                    A.async = !0;
+                    A.src = t;
+                    g = p.getElementsByTagName(s)[0];
+                    g.parentNode.insertBefore(A, g)
+                }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+                var apstagParams = {
+                    pubID: 'fa84ab71-a984-4d4b-9cab-fa3b3879ff93',
+                    adServer: 'googletag',
+                }
+
+                if (window.UGAPP.bidding.isGDPRAvailable) {
+                    apstagParams.gdpr = {
+                        cmpTimeout: 50
+                    }
+                }
+
+                    apstag.init(apstagParams)
+            },
+            apstagFetchBids: function (units, refresh) {
+                if (!units || units.length === 0) {
+                    return;
+                }
+                apstag.fetchBids({
+                    slots: units.map(function (unit) {
+                        return {
+                            slotID: unit.code,
+                            slotName: '/' + window.UGAPP.bidding.dfpId + '/' + unit.dfpCode + (refresh ? '_REFRESH' : ''),
+                            sizes: unit.sizes
+                        };
+                    }),
+                    timeout: window.UGAPP.bidding.timeout
+                }, function (bids) {
+                    googletag.cmd.push(function () {
+                        apstag.setDisplayBids()
+                    })
+                })
+            },
+            loadAdServerScript: function() {
+                this.loadScript('//www.googletagservices.com/tag/js/gpt.js');
+            },
+            loadAdServer: function () {
+                if (this.gptLoadStarted) {
+                    return;
+                }
+
+                this.gptLoadStarted = true;
+
+                if (window.UGAPP.bidding.isGDPRAvailable) {
+                    this.onTcfReady(function(tcData, hasNecessaryPurposes) {
+                        if (hasNecessaryPurposes) {
+                            biddingHelpers.loadAdServerScript();
+                        }
+                    })
+                } else {
+                    this.loadAdServerScript();
+                }
+            },
+            getAdomikRandomAdGroup: function () {
+                var rand = Math.random()
+                switch (true) {
+                    case rand < 0.09:
+                        return 'ad_ex' + (Math.floor(100 * (rand)))
+                    case rand < 0.10:
+                        return 'ad_bc'
+                    default:
+                        return 'ad_opt'
+                }
+            },
+            defineGptTag: function (params, needRefresh) {
+                var dfpId = window.UGAPP.bidding.dfpId;
+                var dfpCode = needRefresh ? params.dfpCode + '_REFRESH' : params.dfpCode;
+                var path = '/' + dfpId + '/' + dfpCode;
+                var tag;
+
+                if (params.layoutPlacement === 'outOfPage') {
+                    tag = googletag.defineOutOfPageSlot(path, params.code);
+                } else {
+                    tag = googletag.defineSlot(path, params.sizes, params.code);
+                }
+
+                var connection = navigator.connection;
+                var downlink = (connection && connection.downlink) ? Math.ceil(navigator.connection.downlink) : 'not_available';
+
+                if (downlink > 11) {
+                    downlink = 'more';
+                }
+
+                tag = tag
+                    .addService(googletag.pubads())
+                    .setTargeting('ad_group', biddingHelpers.getAdomikRandomAdGroup())
+                    .setTargeting('actual_speed', downlink)
+                    .setTargeting('is_refresh', '0');
+
+                tag.setTargeting('allow_adx', window.UGAPP.bidding.disableAdx ? 'false' : 'true');
+                tag.setTargeting('page_type', window.UGAPP.bidding.analytics.pageType);
+
+                var t = window.performance && window.performance.timing;
+                if (t) {
+                    var start = t.navigationStart || t.fetchStart
+                    var value = Math.ceil((t.domContentLoadedEventStart - start) / 100) * 100
+
+                    if (!value || value < 0) {
+                        value = 'not_loaded';
+                    }
+
+                    if (value > 2500) {
+                        value = 'more';
+                    }
+
+                    tag.setTargeting('dom_ready', value);
+                } else {
+                    tag.setTargeting('dom_ready', 'not_available');
+                }
+
+                var windowWidth = document.documentElement.clientWidth;
+
+                var sekindoKeyValues = {
+                    1: 'sekindo',
+                    2: 'sekindohover'
+                };
+                if (params.additionalSekindoBehavior && sekindoKeyValues[params.additionalSekindoBehavior]) {
+                    tag.setTargeting('video', sekindoKeyValues[params.additionalSekindoBehavior]);
+                }
+
+                
+                                tag.setTargeting('song', "Pride And Joy");
+                tag.setTargeting('artist', "Stevie Ray Vaughan & Double Trouble");
+                
+                if (params.variation) {
+                    tag.setTargeting('variation', params.variation)
+                    tag.setTargeting('ab_variation', params.variationName)
+                }
+
+                
+                return tag;
+            },
+            getUnitByCode: function (code) {
+                return window.UGAPP.bidding.units.filter(function (unit) {
+                    return unit.code === code
+                })[0]
+            },
+            getSlotByCode: function (code) {
+                var slots = window.UGAPP.bidding.slots.filter(function (slot) {
+                    return slot.code === code
+                });
+
+                return slots ? slots[0] : null
+            }
+        };
+
+        window.googletag.cmd.push(function () {
+            window.googletag.pubads().addEventListener('slotRenderEnded', function (e) {
+                var slot = biddingHelpers.getSlotByCode(e.slot.getSlotElementId());
+                if (!slot) {
+                    return
+                }
+
+                if (document.location.href.indexOf('dfp_debug=true') !== -1) {
+                    console.log(e)
+                }
+
+                if (
+                    (
+                        slot.code === 'ad_cs_2010319_300_250' // tab_desktop tab_pro_desktop / Primis
+                        && (
+                            [138209404243, 138238546272, 138238996438, 138245687657, 138245691213, 138245902399, 138245692437, 138248215773, 138248239163].indexOf(e.sourceAgnosticCreativeId) !== -1
+                            || [5052151576, 5052153331, 5052153970, 5052154318, 5202683448].indexOf(e.sourceAgnosticLineItemId) !== -1
+                        )
+                    )
+                    // || (
+                    //     slot.code === 'ad_cs_2010320_160_600' // tab_desktop
+                    //     && [4954799754, 5041551514].indexOf(e.sourceAgnosticLineItemId) !== -1
+                    // )
+                    || (
+                        slot.code === 'ad_cs_5723252_300_250' // tab_mobile / Primis
+                        && (
+                            [4691094153, 5040180432, 5144436917].indexOf(e.sourceAgnosticLineItemId) !== -1
+                        )
+                    )
+                    || (
+                        slot.code === 'ad_cs_2010326_300_250' // mojo / Primis
+                        && (
+                            [4690704228, 5144436917].indexOf(e.sourceAgnosticLineItemId) !== -1
+                        )
+                    )
+                ) {
+                    slot.refresh = typeof slot.refresh === 'object' ? slot.refresh : {};
+                    slot.refresh.enabled = false
+                }
+            })
+        });
+    </script>
+            
+            <script>
+            function importFonts() {
+                var style = document.createElement('link');
+                style.rel = 'stylesheet';
+                style.href = 'https://tabs.ultimate-guitar.com/static/public/fonts/ug/fonts_ver1607171785.css';
+                style.type = 'text/css';
+                document.head.appendChild(style)
+            }
+
+            try {
+                navigator.serviceWorker.getRegistrations().then(importFonts)
+            } catch (e) {
+                window.addEventListener('load', importFonts)
+            }
+        </script>
+    
+</head>
+<body style="background-color: #111; margin: 0" >
+            
+                
+            <div class="js-page js-global-wrapper">
+                    </div>
+        <div class="js-cmp"></div>
+                            <div class="js-store" data-content="{&quot;config&quot;:{&quot;abVariation&quot;:null,&quot;abVariation2&quot;:null,&quot;abVariation3&quot;:null,&quot;abTestAccountVariation&quot;:[],&quot;experiments&quot;:{&quot;isPianoChordGroup&quot;:true},&quot;urlFacebook&quot;:&quot;https://www.ultimate-guitar.com/user/auth/oauth?service=facebook&quot;,&quot;urlGoogle&quot;:&quot;https://www.ultimate-guitar.com/user/auth/oauth?service=google&quot;,&quot;urlApple&quot;:&quot;https://www.ultimate-guitar.com/user/auth/oauth?service=apple&quot;,&quot;main_server&quot;:&quot;ultimate-guitar.com&quot;,&quot;ps_server&quot;:&quot;plus.ultimate-guitar.com&quot;,&quot;static_server&quot;:&quot;https://tabs.ultimate-guitar.com/static&quot;,&quot;statik_cache&quot;:&quot;_ver1607171785&quot;,&quot;staticPrefix&quot;:&quot;/static&quot;,&quot;time&quot;:1607222489000,&quot;isGDPRAvailable&quot;:false,&quot;isCcpaAvailable&quot;:false,&quot;user&quot;:{&quot;id&quot;:0,&quot;uuid&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;iq&quot;:&quot;&quot;,&quot;contributorPower&quot;:false},&quot;isOfficeUser&quot;:false,&quot;isOfficeRequest&quot;:false,&quot;isWebp&quot;:false,&quot;isBot&quot;:true,&quot;is_mobile&quot;:false,&quot;is_tablet&quot;:false,&quot;isThemeMobile&quot;:false,&quot;isIe&quot;:false,&quot;socketCluster&quot;:{&quot;serviceKey&quot;:&quot;f0557aa8-2d06-43d9-9c16-f885bc710b97:main&quot;,&quot;channelPrefix&quot;:&quot;f0557aa8-2d06-43d9-9c16-f885bc710b97:main#prod&quot;,&quot;hostname&quot;:&quot;socketcluster.k8s.wsmgroup.ru&quot;,&quot;port&quot;:443,&quot;channelName&quot;:&quot;&quot;},&quot;metricaId&quot;:18746557,&quot;captcha_id&quot;:&quot;6LfCo_8SAAAAALEMHnlK18j8IemlAdvmxwRnQe2v&quot;,&quot;stripeApiKey&quot;:&quot;pk_live_4aZVHgEcj68d3uAgtisiXtZo&quot;,&quot;country&quot;:&quot;US&quot;,&quot;countryCode&quot;:&quot;US&quot;,&quot;browserName&quot;:&quot;Python&quot;,&quot;os&quot;:&quot;&quot;,&quot;platform&quot;:4,&quot;browser&quot;:&quot;{\&quot;browser\&quot;:{\&quot;name\&quot;:\&quot;Python\&quot;,\&quot;version\&quot;:\&quot;3.7\&quot;},\&quot;device\&quot;:{\&quot;type\&quot;:\&quot;bot\&quot;}}&quot;,&quot;urlUgProAppIcon&quot;:&quot;https://tabs.ultimate-guitar.com/static/public/img/app_icons/icon_ug_pro_ver1607171785.png&quot;,&quot;withCritical&quot;:false,&quot;isJobEnabled&quot;:false,&quot;analytics&quot;:{&quot;userTrackerId&quot;:&quot;SA==&quot;},&quot;braintree&quot;:{&quot;environment&quot;:&quot;production&quot;,&quot;tokenizationKey&quot;:&quot;production_8htvrhhr_67vpx3rpxt6m5z7c&quot;,&quot;paypalClientId&quot;:&quot;ASwoeikdyflPIKFAC3U34ewfFVRE5-_p6qc1TTQG9g_sHNs3RP5Sq3pE_e7V2p0VTi-nJQuIA5ApP1XH&quot;},&quot;vimeo&quot;:{&quot;baseImagePath&quot;:&quot;https://i.vimeocdn.com/video/&quot;},&quot;hasStaticCache&quot;:0,&quot;rtAnalytics&quot;:{&quot;trackUrl&quot;:&quot;/components/ab/event&quot;,&quot;trackingEnabled&quot;:true},&quot;jinba&quot;:{&quot;customTimings&quot;:[],&quot;appLabel&quot;:&quot;tab_page&quot;,&quot;appLabelExp&quot;:&quot;null&quot;},&quot;metricaParams&quot;:{&quot;rights&quot;:0,&quot;u_id&quot;:&quot;SA==&quot;,&quot;auth&quot;:&quot;None&quot;,&quot;is_registered&quot;:0,&quot;ab&quot;:[]}},&quot;store&quot;:{&quot;page&quot;:{&quot;experiments&quot;:{&quot;variations&quot;:[],&quot;closed_experiments&quot;:{&quot;155&quot;:3,&quot;353&quot;:2}},&quot;data&quot;:{&quot;mobile_device&quot;:null,&quot;show_rate_layer&quot;:false,&quot;tab&quot;:{&quot;id&quot;:30829,&quot;song_id&quot;:173779,&quot;song_name&quot;:&quot;Pride And Joy&quot;,&quot;artist_id&quot;:13991,&quot;artist_name&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:357,&quot;rating&quot;:4.7372399999999998954081092961132526397705078125,&quot;date&quot;:&quot;1023580800&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:172,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-30829&quot;,&quot;date_update&quot;:&quot;1499934181&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-guitar-pro-470253&quot;},&quot;backing_track_tip&quot;:false,&quot;tab_view&quot;:{&quot;wiki_tab&quot;:{&quot;content&quot;:&quot;[tab](You had better clean the rust off your fingers to learn this tune inside\r\nand out.  And remember Stevie always tuned down a half step. He also\r\nplayed on 11 and 12 gauge strings.)\r\nE|-------0-0-0-0-0-|---7-7-7-7-7-7-7--|------0-0-0-0-0-0-0-0-|--------------|\r\nB|--3su5-5-5-5-5-5-|---8-8-8-8-8-8-8--|-3su5-5-5-5-5-5-5-5-5-|--------------|\r\nG|-----------------|---^--------------|----------------------|--0-b2--0-----|\r\nD|-----------------|---|--------------|----------------------|----------2---|\r\nA|-----------------|---|--------------|----------------------|--------------|\r\nE|-----------------|---|--------------|----------------------|--------------|\r\n                 these | G(8th fret) notes are bent slightly[/tab]\r\n                 \r\n[tab]E|----0----0-----0-----0-|-----0-----0-----0-2-0-|-0-0----0----0-----0------|\r\nB|----0----0-----0-----0-|-----0-----0-----0-2-0-|-0-0----0----0-----0------|\r\nG|----1----1-------------|-----------------1-2-1-|-1-1----------------------|\r\nD|-----------------------|--2--------------------|--------------------------|\r\nA|------------2-----4----|--------------2--------|----------2-----4---------|\r\nE|-0-----3---------------|--------3--------------|------3-------------------|\r\n  I find it easiest to play these lower bass notes by forming the chord and\r\n  then using your pinky to finger the notes, I am not sure exactly how SRV\r\n  did it![/tab]\r\n\r\n[tab]E|-----0-----0---0-2-0--|-----0-----0-----0-----0-|---0----0------0--2--0---|\r\nB|-----0-----0---0-2-0--|-----2-----2-----2-----2-|---2----2------0--2--0---|\r\nG|---------------1-2-1--|-----2-----2-----2-----2-|-2-2----2---------2------|\r\nD|--2-------------------|--------------2-----4----|-------------2-----------|\r\nA|-------------2--------|--0-----4----------------|------4------------------|\r\nE|--------3-------------|-------------------------|-------------------------|[/tab]\r\n                                                                             \r\n[tab]E|----0------0-------0-----0-|---0-----0-----0---------|-----------------------|\r\nB|----0------0-------0-----0-|---0-----0-----0-------3-|------3-----3----------|\r\nG|---------------------------|------------------2su4---|-2su4---2su4--2p0------|\r\nD|---------------------------|-2-----------------------|------------------2----|\r\nA|---------------2------4----|------------2------------|-------------------0h2-|\r\nE|-0-----3-------------------|------3------------------|-----------------------|[/tab]\r\n\r\n[tab]E|---|------------------------------|----0----------------------------------|\r\nB|---|------------------------------|----0--2su3-3-3-3-3-3------------------|\r\nG|---|------------------------------|----1--3su4-4-4-4-4-4-2p0--------------|\r\nD|---|-0-1-2----------------------2-|--------------------------2------------|\r\nA|-2-|--------0-2-1--0h1p0---0------|---------------------------------------|\r\nE|---|---------------------3----3---|-0-------------------------------------|[/tab]\r\n\r\n                                                                             \r\n[tab]E|----------------0--0-|--0-------------------------------------------------|  \r\nB|----------------0--0-|--0--Just play this E and shuffle though the -------|  \r\nG|----------------1--1-|--1-  I-IV-V   blues progression. Use your ---------|  \r\nD|---------------------|-------palm to muffle some of the strings when you -|  \r\nA|---------0-1-2-------|----------------------------------------------play--|  \r\nE|-0---3---------------|----------------------------------------------------|  \r\n                 Well you've heard about love and giving sight to the blind[/tab]\r\n         \r\n[tab]E|-0-----0----------0-------------|--3-------------------------------3------|  \r\nB|-0-----0----------0-------------|--2--Shuffle with A7 -------------2------|  \r\nG|-1-----1----------1-------------|--2-------------------------------2------|  \r\nD|--------------------------------|-----------------------------------------|  \r\nA|--------------------------------|-----------------------------------------|  \r\nE|--------------------------------|-----------------------------------------|  \r\n  My babys lovin' cause the sun to shine    Shes my sweet little thing[/tab]\r\n         \r\n[tab]E|-0--3-3---0-0-|-0----------------|----------------------|-----------------|  \r\nB|-2--2-2---0-0-|-0----------------|----------------------|------------1-2-1|  \r\nG|-2--2-2---1-1-|-1-----Shuffle ---|----------------------|------------0-2-0|  \r\nD|-2------------|------------------|-------0--1---4-4-6-4-|-----------2-----|  \r\nA|--------------|------------------|-2--2-----------------|-0--0-4--4-------|  \r\nE|--------------|------------------|----------------------|-----------------|  \r\n   Shes my pride and joy     Shes my sweet little baby I'm her lil lover boy[/tab]\r\n\r\n[tab]E|-0---0---------0-0-0--------|-------------------| (That is pretty much        \r\nB|-0---0-------3-3-3-3--------|-------------0-2-0-|  how he plays the whole    \r\nG|-1---1--2su4----------2p0---|-------------1-2-1-|  song except for a few     \r\nD|--------------------------2-|-------------------| fills which are just notes \r\nA|----------------------------|-------0-1-2-------|   right off the chords     \r\nE|----------------------------|--0--3-------------|  Now for the great solo!)   [/tab]\r\n\r\n[tab][Solo]\r\nE|--0--0--0--0--0--0--0--0--0--0--0--0-|--0--0--0--0--0--0--0--0--0--0--0--0|  \r\nB|-12-12-12-12-12-12-12-12-12-12-12-12-|-15-15-15-15-15-15-15-15-15-15-15-15|  \r\nG|-13-13-13-13-13-13-13-13-13-13-13-13-|-16-16-16-16-16-16-16-16-16-16-16-16|  \r\nD|-------------------------------------|------------------------------------|  \r\nA|-------------------------------------|------------------------------------|  \r\nE|-------------------------------------|------------------------------------|  [/tab]\r\n                                                                               \r\n[tab]E|--0--0--0--0--0--0--0--0--0--0--0--0-|-------12-----12-12------12-12------|  \r\nB|-12-12-12-12-12-12-12-12-12-12-12-12-|----12----b15-12-12--b15-12-12-b15--|  \r\nG|-13-13-13-13-13-13-13-13-13-13-13-13-|b14---------------------------------|  \r\nD|-------------------------------------|------------------------------------|  \r\nA|-------------------------------------|------------------------------------|  \r\nE|-------------------------------------|------------------------------------|  [/tab]\r\n\r\n[tab]E|-12-12-|--b15--12-----------12--------------------|-----------------------|\r\nB|-12-12-|----------12-----12----15-----------------|-----------------------|\r\nG|-------|-------------b14----------b14--14--12-----|-12-b14-b14-b14-b14----|\r\nD|-------|---------------------------------------14-|-----------------------|\r\nA|-------|------------------------------------------|-----------------------|\r\nE|-------|------------------------------------------|-----------------------|[/tab]\r\n                                                                             \r\n[tab]E|---------------------------------------12------15---------------0---------|\r\nB|------------------------------------12----12---15-------------------------|\r\nG|--14p12-------12----------------b14-----------------b|2-0---0h1-----------|\r\nD|---------14-------14p12-----------------------------------2---------------|\r\nA|-------------------------14--12-------------------------------------0--1--|\r\nE|------------------------------------------------------------------3-------|[/tab]\r\n                                                                             \r\n[tab]E|------2-------2----------15su17sd---0-3-0-------------------0-------------|\r\nB|------0-------0----0-0---------------------3------------------2su3-3-3-3-3|\r\nG|---2-------2-----2-0-0-----------------------2--3p2--0--------3su4-4-4-4-4|\r\nD|---1-------1-------------------------------------------2------------------|\r\nA|-2------------------------------------------------------------------------|\r\nE|---------2-----------------------------------------------0----------------|[/tab]\r\n                                                                             \r\n[tab]E|------------------3--2----2--0--0-0-0-0-0-0-0-0-0-0-0-0-0-0--7-7-7-7-7-7--|\r\nB|------------------3--2----2--3su5-5-5-5-5-5-5-5-5-5-5-5-5-5--8-8-8-8-8-8--|\r\nG|--2--0-----0h1----3--2----2-----------------------------------------------|\r\nD|-------2------------------------------------------------------------------|\r\nA|--------------------------------------------------------------------------|\r\nE|----------------0---------------------------------------------------------|\r\n                                                   again bend the \&quot;8\&quot;  [/tab]\r\n\r\n[tab]E|-------------0--0-----0--0---0--0---7-7-7-7-7-7---------------------------|\r\nB|-------------5--5-----5--5---5--5---8-8-8-8-8-8----6su8-8-8-8-8-8-8-8-8-8-|\r\nG|--2p0--------------2-------------------------------7su9-9-9-9-9-9-9-9-9-9-|\r\nD|------2---2---------------------------------------------------------------|\r\nA|--------------------------------------------------------------------------|\r\nE|--------------------------------------------------------------------------|[/tab]\r\n                                                                             \r\n[tab]E|-----------------0----------------------------------0---------0-----------|  \r\nB|-8-----------------b3--0--3--------3-------------------0--b3--------------|  \r\nG|-9--2p0-----0h1--------------2su4----4--2--0---------------------0h1p0h1--|  \r\nD|---------2------------------------------------2---------------------------|  \r\nA|--------------------------------------------------------------------------|  \r\nE|-------------------------------------------------0------------------------|  [/tab]\r\n                                                                               \r\n[tab]E|-------------2---------2--2-2---b3-0----------0---------------------------|  \r\nB|-------------0---------0--0-0---------3---------3-------------------------|  \r\nG|-----------2--------2-----2-2-----------2su4------4--2--0-----------------|  \r\nD|-----------1--------1--------------------------------------2-0-1--2-------|  \r\nA|----0-1--2----------------------------------------------------------------|  \r\nE|-3----------------2-------------------------------------------------------|  [/tab]\r\n\r\n[tab]E|-----0--------------------------------------------------------------------|\r\nB|-----0--------3--3---3-------------------------return to the main verse---|\r\nG|--------2su4------------2p0----------------------after the solo.----------|\r\nD|----------------------------2---------------------------------------------|\r\nA|--------------------------------------0-1--2------------------------------|\r\nE|--0-----------------------------0--3--------------------------------------|[/tab]\r\n\r\n(I would suggest to any serious guitar player interested in SRV to learn these\r\nsolos if you want to really get into SRV's style.\r\nHere is the short out solo.)\r\n\r\n[tab]E|-------------------------|-------------------------|----------------------|\r\nB|-3-3-3-3-3-3-3-3-3-3-3-3-|-5-5-5-5-5-5-5-5-5-5-5-5-|-same rhythm---12-----|\r\nG|-4-4-4-4-4-4-4-4-4-4-4-4-|-6-6-6-6-6-6-6-6-6-6-6-6-|-with these--&gt;-13-----|\r\nD|-------------------------|-------------------------|----------------------|\r\nA|-------------------------|-------------------------|----------------------|\r\nE|-------------------------|-------------------------|----------------------|[/tab]\r\n\r\n[tab]E|--------------|---------------------------------------------------12--12--|\r\nB|and-------15--|--------------12-----12--14-14-14---12-----12--------------|\r\nG|-these--&gt;-16--|----14--12----12-----12--14-14-14---12-----12--b14---------|\r\nD|--------------|-----------14-----14--------------------14-----------------|\r\nA|--------------|-----------------------------------------------------------|\r\nE|--------------|-----------------------------------------------------------|[/tab]\r\n\r\n[tab]E|-b15-------b15--b15--b15--V15-------12------------------------------------|\r\nB|---------------------------------------15--12-----------------------------|\r\nG|-----------------------------------------------b|14--12------12-b14-b14---|\r\nD|---------------------------------------------------------14---------------|\r\nA|--------------------------------------------------------------------------|\r\nE|--------------------------------------------------------------------------|[/tab]\r\n\r\n[tab]E|---------------------------------12-------------------14--12--------------|\r\nB|------------------------------12----12---15--12--12-------12--b14--12-----|\r\nG|12-----------------------b14------------------------------------------b|14|\r\nD|-------12--14p12-----12---------------------------------------------------|\r\nA|------------------14------------------------------------------------------|\r\nE|--------------------------------------------------------------------------|[/tab]\r\n\r\n[tab]E|--------------12-----------------------------------3-0----0----------0-2-3-|\r\nB|-----------12-----15------------------------------------3-0--0-------0-3-3-|\r\nG|-12----b14------------b14---14--12-----------------------------0-1-----3-4-|\r\nD|------------------------------------14-12---14---------------------2-------|\r\nA|---------------------------------------------------------------------------|\r\nE|-------------------------------------------------0-------------------------|[/tab]\r\n\r\n\r\n************************************\r\n\r\n| h  Hammer-on\r\n| p  Pull-off\r\n| &gt;  Accented note\r\n| b  Bend\r\n| sd Slide down\r\n| su Slide up\r\n\r\n************************************&quot;,&quot;revision_id&quot;:7,&quot;user_id&quot;:0,&quot;username&quot;:&quot;&quot;,&quot;date&quot;:1601457379},&quot;contributors&quot;:[{&quot;userid&quot;:&quot;726057&quot;,&quot;username&quot;:&quot;Fox-x-x&quot;,&quot;usergroupid&quot;:&quot;2&quot;,&quot;iq&quot;:84347},{&quot;userid&quot;:&quot;12731342&quot;,&quot;username&quot;:&quot;KonstantinBond&quot;,&quot;usergroupid&quot;:&quot;12&quot;,&quot;iq&quot;:51286},{&quot;userid&quot;:&quot;9290769&quot;,&quot;username&quot;:&quot;mandelstamdavid&quot;,&quot;usergroupid&quot;:&quot;26&quot;,&quot;iq&quot;:8738},{&quot;userid&quot;:&quot;3360025&quot;,&quot;username&quot;:&quot;NSpen1&quot;,&quot;usergroupid&quot;:&quot;25&quot;,&quot;iq&quot;:100518}],&quot;strummings&quot;:[],&quot;has_hq_description&quot;:0,&quot;blocked&quot;:false,&quot;adsupp_binary_blocked&quot;:null,&quot;meta&quot;:{&quot;tuning&quot;:{&quot;name&quot;:&quot;Standard&quot;,&quot;value&quot;:&quot;E A D G B E&quot;,&quot;index&quot;:1}},&quot;has_official_version&quot;:true,&quot;has_chord_pro&quot;:false,&quot;has_preset&quot;:false,&quot;versions&quot;:[{&quot;id&quot;:1942869,&quot;song_id&quot;:173779,&quot;song_name&quot;:&quot;Pride And Joy&quot;,&quot;artist_id&quot;:13991,&quot;artist_name&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble&quot;,&quot;type&quot;:&quot;Official&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:462,&quot;rating&quot;:4.82448999999999994514610079932026565074920654296875,&quot;date&quot;:&quot;1486208235&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:172,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;Eb&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-official-1942869&quot;,&quot;date_update&quot;:&quot;1551098416&quot;,&quot;user_id&quot;:14090340,&quot;user_iq&quot;:99,&quot;username&quot;:&quot;DmitryHPH&quot;,&quot;type_name&quot;:&quot;Official&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-guitar-pro-470253&quot;},{&quot;id&quot;:185795,&quot;song_id&quot;:173779,&quot;song_name&quot;:&quot;Pride And Joy&quot;,&quot;artist_id&quot;:13991,&quot;artist_name&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:2,&quot;votes&quot;:39,&quot;rating&quot;:4.6762800000000002142996891052462160587310791015625,&quot;date&quot;:&quot;1116633600&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:172,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-185795&quot;,&quot;date_update&quot;:&quot;1497552656&quot;,&quot;user_id&quot;:156773,&quot;user_iq&quot;:2180,&quot;username&quot;:&quot;Kurt_Cobain_67&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-guitar-pro-470253&quot;},{&quot;id&quot;:437065,&quot;song_id&quot;:173779,&quot;song_name&quot;:&quot;Pride And Joy&quot;,&quot;artist_id&quot;:13991,&quot;artist_name&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:3,&quot;votes&quot;:11,&quot;rating&quot;:4.457390000000000185309545486234128475189208984375,&quot;date&quot;:&quot;1163980801&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:172,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-437065&quot;,&quot;date_update&quot;:&quot;1497552675&quot;,&quot;user_id&quot;:135655,&quot;user_iq&quot;:41553,&quot;username&quot;:&quot;Andrew Zara&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-guitar-pro-470253&quot;}],&quot;song_image&quot;:false,&quot;applicature&quot;:null,&quot;piano_inversions&quot;:null,&quot;last_comments&quot;:[{&quot;id&quot;:&quot;592234&quot;,&quot;rowid&quot;:&quot;30829&quot;,&quot;text&quot;:&quot;they are quarter step bends.  also before he does that, he strums the low a and e strings together. dont fight with me because i have the book sitting in front of me.&quot;,&quot;author_userid&quot;:&quot;0&quot;,&quot;rating&quot;:&quot;-65&quot;,&quot;userid&quot;:&quot;130762&quot;,&quot;usergroupid&quot;:&quot;21&quot;,&quot;username&quot;:&quot;guitarman47&quot;,&quot;date_created&quot;:&quot;1101513600&quot;,&quot;type&quot;:&quot;4&quot;,&quot;parent_id&quot;:0,&quot;added_from&quot;:&quot;&quot;,&quot;updated_at&quot;:null,&quot;status&quot;:&quot;new&quot;,&quot;moderator_user_id&quot;:&quot;11953509&quot;,&quot;likes_count&quot;:&quot;5&quot;,&quot;dislikes_count&quot;:&quot;70&quot;,&quot;contributor_level&quot;:&quot;1&quot;,&quot;avatar&quot;:&quot;https://tabs.ultimate-guitar.com/static/users/2/6/7/130762.gif?d=d&quot;,&quot;date&quot;:1101513600,&quot;user_iq&quot;:142,&quot;level&quot;:0},{&quot;id&quot;:&quot;599834&quot;,&quot;rowid&quot;:&quot;30829&quot;,&quot;text&quot;:&quot;If I learned anything from the Abysslord, it's  that the books are never 100% correct.&quot;,&quot;author_userid&quot;:&quot;0&quot;,&quot;rating&quot;:&quot;30&quot;,&quot;userid&quot;:&quot;39902&quot;,&quot;usergroupid&quot;:&quot;21&quot;,&quot;username&quot;:&quot;dOwnstOnE&quot;,&quot;date_created&quot;:&quot;1111017600&quot;,&quot;type&quot;:&quot;4&quot;,&quot;parent_id&quot;:0,&quot;added_from&quot;:&quot;&quot;,&quot;updated_at&quot;:null,&quot;status&quot;:&quot;new&quot;,&quot;moderator_user_id&quot;:&quot;11953509&quot;,&quot;likes_count&quot;:&quot;33&quot;,&quot;dislikes_count&quot;:&quot;3&quot;,&quot;contributor_level&quot;:&quot;2&quot;,&quot;avatar&quot;:&quot;https://tabs.ultimate-guitar.com/static/users/2/0/9/39902.gif?d=d&quot;,&quot;date&quot;:1111017600,&quot;user_iq&quot;:191,&quot;level&quot;:0},{&quot;id&quot;:&quot;1097786&quot;,&quot;rowid&quot;:&quot;30829&quot;,&quot;text&quot;:&quot;I think its a great tab. Keep up the good work&quot;,&quot;author_userid&quot;:&quot;0&quot;,&quot;rating&quot;:&quot;12&quot;,&quot;userid&quot;:&quot;268225&quot;,&quot;usergroupid&quot;:&quot;2&quot;,&quot;username&quot;:&quot;Alex S.&quot;,&quot;date_created&quot;:&quot;1139833743&quot;,&quot;type&quot;:&quot;4&quot;,&quot;parent_id&quot;:0,&quot;added_from&quot;:&quot;&quot;,&quot;updated_at&quot;:null,&quot;status&quot;:&quot;new&quot;,&quot;moderator_user_id&quot;:&quot;11953509&quot;,&quot;likes_count&quot;:&quot;12&quot;,&quot;dislikes_count&quot;:&quot;0&quot;,&quot;contributor_level&quot;:null,&quot;avatar&quot;:&quot;https://tabs.ultimate-guitar.com/static/users/5/2/2/268225.gif?d=d&quot;,&quot;date&quot;:1139833743,&quot;user_iq&quot;:80,&quot;level&quot;:0}],&quot;comments&quot;:73,&quot;stats&quot;:{&quot;view_total&quot;:&quot;995341&quot;,&quot;favorites_count&quot;:&quot;13105&quot;},&quot;tab_corrects&quot;:[],&quot;is_simplify_available&quot;:false,&quot;can_edit_tab&quot;:false,&quot;can_edit_strumming&quot;:false,&quot;can_send_tab_stats&quot;:false,&quot;official_backingtrack&quot;:null,&quot;tab_search_link&quot;:&quot;https://www.ultimate-guitar.com/search.php?band_name=Stevie+Ray+Vaughan+%26+Double+Trouble&amp;song_name=pride+and+joy&amp;type%5B0%5D=200&amp;type%5B1%5D=300&quot;,&quot;wiki_tab_user_group_id&quot;:0,&quot;wiki_tab_user_iq&quot;:0,&quot;user_group_id&quot;:0,&quot;count_rating&quot;:357,&quot;encode_strummings&quot;:&quot;&quot;,&quot;alert&quot;:null,&quot;recommendations&quot;:[{&quot;id&quot;:14288,&quot;song_id&quot;:42998,&quot;song_name&quot;:&quot;Hotel California&quot;,&quot;artist_id&quot;:1509,&quot;artist_name&quot;:&quot;Eagles&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:2,&quot;votes&quot;:2102,&quot;rating&quot;:4.6837900000000001199396137963049113750457763671875,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:10137,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;Bm&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/eagles_1509&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/eagles/hotel-california-tabs-14288&quot;,&quot;date_update&quot;:&quot;1528111760&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/eagles/hotel-california-guitar-pro-786319&quot;},{&quot;id&quot;:11720,&quot;song_id&quot;:124515,&quot;song_name&quot;:&quot;Voodoo Child Slight Return&quot;,&quot;artist_id&quot;:8984,&quot;artist_name&quot;:&quot;Jimi Hendrix&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:154,&quot;rating&quot;:4.3974700000000002120259523508138954639434814453125,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:27719,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/jimi_hendrix_8984&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/voodoo-child-slight-return-tabs-11720&quot;,&quot;date_update&quot;:&quot;1496735452&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/voodoo-child-slight-return-guitar-pro-221214&quot;},{&quot;id&quot;:202632,&quot;song_id&quot;:137264,&quot;song_name&quot;:&quot;Folsom Prison Blues&quot;,&quot;artist_id&quot;:10001,&quot;artist_name&quot;:&quot;Johnny Cash&quot;,&quot;type&quot;:&quot;Chords&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:1137,&quot;rating&quot;:4.6784400000000001540456651127897202968597412109375,&quot;date&quot;:&quot;1104537600&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:3206,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;G&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/johnny_cash_10001&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/johnny-cash/folsom-prison-blues-chords-202632&quot;,&quot;date_update&quot;:&quot;1599574194&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Chords&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/johnny-cash/folsom-prison-blues-guitar-pro-1492086&quot;},{&quot;id&quot;:5200,&quot;song_id&quot;:17522,&quot;song_name&quot;:&quot;Wish You Were Here&quot;,&quot;artist_id&quot;:684,&quot;artist_name&quot;:&quot;Pink Floyd&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:254,&quot;rating&quot;:4.4140399999999999636202119290828704833984375,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:776,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/pink_floyd_684&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/pink-floyd/wish-you-were-here-tabs-5200&quot;,&quot;date_update&quot;:&quot;1477402270&quot;,&quot;user_id&quot;:13185050,&quot;user_iq&quot;:30,&quot;username&quot;:&quot;andreas158&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/pink-floyd/wish-you-were-here-guitar-pro-2513556&quot;},{&quot;id&quot;:11712,&quot;song_id&quot;:124443,&quot;song_name&quot;:&quot;Little Wing&quot;,&quot;artist_id&quot;:8984,&quot;artist_name&quot;:&quot;Jimi Hendrix&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:16,&quot;rating&quot;:3.7054700000000000414956957683898508548736572265625,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:9681,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:null,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/jimi_hendrix_8984&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/little-wing-tabs-11712&quot;,&quot;date_update&quot;:&quot;1004486400&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/little-wing-guitar-pro-237153&quot;},{&quot;id&quot;:12657,&quot;song_id&quot;:39508,&quot;song_name&quot;:&quot;Sweet Child O Mine&quot;,&quot;artist_id&quot;:1367,&quot;artist_name&quot;:&quot;Guns N' Roses&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:548,&quot;rating&quot;:4.63051000000000012590817277668975293636322021484375,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:774,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;D&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/guns_n_roses_1367&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/guns-n-roses/sweet-child-o-mine-tabs-12657&quot;,&quot;date_update&quot;:&quot;1500380571&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/guns-n-roses/sweet-child-o-mine-guitar-pro-2165563&quot;},{&quot;id&quot;:33794,&quot;song_id&quot;:31421,&quot;song_name&quot;:&quot;Simple Man&quot;,&quot;artist_id&quot;:1032,&quot;artist_name&quot;:&quot;Lynyrd Skynyrd&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:593,&quot;rating&quot;:4.80609000000000019525714378687553107738494873046875,&quot;date&quot;:&quot;1028073600&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:135,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:null,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/lynyrd_skynyrd_1032&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/lynyrd-skynyrd/simple-man-tabs-33794&quot;,&quot;date_update&quot;:&quot;1460045897&quot;,&quot;user_id&quot;:15216,&quot;user_iq&quot;:161,&quot;username&quot;:&quot;toughlikepopeye&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/lynyrd-skynyrd/simple-man-guitar-pro-224322&quot;}],&quot;official_backingtrack_url&quot;:&quot;https://www.ultimate-guitar.com/backing_track/stevie_ray_vaughan/pride_and_joy_23631&quot;,&quot;official_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-official-1942869&quot;,&quot;official_tab_want&quot;:null,&quot;tab_manually_highlighted&quot;:false,&quot;pro_tab_onbording&quot;:null,&quot;smart_auto_scroll_available&quot;:false,&quot;lyrics_lines&quot;:[],&quot;video_feed&quot;:{&quot;total_count&quot;:110,&quot;artist_total_count&quot;:0},&quot;ug_difficulty&quot;:null,&quot;new_ug_difficulty&quot;:null},&quot;access&quot;:{&quot;can_edit_tab&quot;:false,&quot;can_edit_strumming&quot;:false,&quot;can_delete_comment&quot;:false,&quot;can_manage_rating&quot;:false,&quot;can_vote_strumming&quot;:true},&quot;recommended_tabs&quot;:[{&quot;id&quot;:14288,&quot;song_id&quot;:42998,&quot;song_name&quot;:&quot;Hotel California&quot;,&quot;artist_id&quot;:1509,&quot;artist_name&quot;:&quot;Eagles&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:2,&quot;votes&quot;:2102,&quot;rating&quot;:4.6837900000000001199396137963049113750457763671875,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:10137,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;Bm&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/eagles_1509&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/eagles/hotel-california-tabs-14288&quot;,&quot;date_update&quot;:&quot;1528111760&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/eagles/hotel-california-guitar-pro-786319&quot;},{&quot;id&quot;:11720,&quot;song_id&quot;:124515,&quot;song_name&quot;:&quot;Voodoo Child Slight Return&quot;,&quot;artist_id&quot;:8984,&quot;artist_name&quot;:&quot;Jimi Hendrix&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:154,&quot;rating&quot;:4.3974700000000002120259523508138954639434814453125,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:27719,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/jimi_hendrix_8984&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/voodoo-child-slight-return-tabs-11720&quot;,&quot;date_update&quot;:&quot;1496735452&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/voodoo-child-slight-return-guitar-pro-221214&quot;},{&quot;id&quot;:202632,&quot;song_id&quot;:137264,&quot;song_name&quot;:&quot;Folsom Prison Blues&quot;,&quot;artist_id&quot;:10001,&quot;artist_name&quot;:&quot;Johnny Cash&quot;,&quot;type&quot;:&quot;Chords&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:1137,&quot;rating&quot;:4.6784400000000001540456651127897202968597412109375,&quot;date&quot;:&quot;1104537600&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:3206,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;G&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/johnny_cash_10001&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/johnny-cash/folsom-prison-blues-chords-202632&quot;,&quot;date_update&quot;:&quot;1599574194&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Chords&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/johnny-cash/folsom-prison-blues-guitar-pro-1492086&quot;},{&quot;id&quot;:5200,&quot;song_id&quot;:17522,&quot;song_name&quot;:&quot;Wish You Were Here&quot;,&quot;artist_id&quot;:684,&quot;artist_name&quot;:&quot;Pink Floyd&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:254,&quot;rating&quot;:4.4140399999999999636202119290828704833984375,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:776,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/pink_floyd_684&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/pink-floyd/wish-you-were-here-tabs-5200&quot;,&quot;date_update&quot;:&quot;1477402270&quot;,&quot;user_id&quot;:13185050,&quot;user_iq&quot;:30,&quot;username&quot;:&quot;andreas158&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/pink-floyd/wish-you-were-here-guitar-pro-2513556&quot;},{&quot;id&quot;:11712,&quot;song_id&quot;:124443,&quot;song_name&quot;:&quot;Little Wing&quot;,&quot;artist_id&quot;:8984,&quot;artist_name&quot;:&quot;Jimi Hendrix&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:16,&quot;rating&quot;:3.7054700000000000414956957683898508548736572265625,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:9681,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:null,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/jimi_hendrix_8984&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/little-wing-tabs-11712&quot;,&quot;date_update&quot;:&quot;1004486400&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/jimi-hendrix/little-wing-guitar-pro-237153&quot;},{&quot;id&quot;:12657,&quot;song_id&quot;:39508,&quot;song_name&quot;:&quot;Sweet Child O Mine&quot;,&quot;artist_id&quot;:1367,&quot;artist_name&quot;:&quot;Guns N' Roses&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:548,&quot;rating&quot;:4.63051000000000012590817277668975293636322021484375,&quot;date&quot;:&quot;1004486400&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:774,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;D&quot;,&quot;version_description&quot;:&quot;&quot;,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/guns_n_roses_1367&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/guns-n-roses/sweet-child-o-mine-tabs-12657&quot;,&quot;date_update&quot;:&quot;1500380571&quot;,&quot;user_id&quot;:0,&quot;user_iq&quot;:0,&quot;username&quot;:&quot;Unregistered&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/guns-n-roses/sweet-child-o-mine-guitar-pro-2165563&quot;},{&quot;id&quot;:33794,&quot;song_id&quot;:31421,&quot;song_name&quot;:&quot;Simple Man&quot;,&quot;artist_id&quot;:1032,&quot;artist_name&quot;:&quot;Lynyrd Skynyrd&quot;,&quot;type&quot;:&quot;Tabs&quot;,&quot;part&quot;:&quot;&quot;,&quot;version&quot;:1,&quot;votes&quot;:593,&quot;rating&quot;:4.80609000000000019525714378687553107738494873046875,&quot;date&quot;:&quot;1028073600&quot;,&quot;status&quot;:&quot;approved&quot;,&quot;preset_id&quot;:135,&quot;tab_access_type&quot;:&quot;public&quot;,&quot;tp_version&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;version_description&quot;:null,&quot;verified&quot;:0,&quot;recording&quot;:{&quot;is_acoustic&quot;:0,&quot;tonality_name&quot;:&quot;&quot;,&quot;performance&quot;:null,&quot;recording_artists&quot;:[]},&quot;artist_url&quot;:&quot;https://www.ultimate-guitar.com/artist/lynyrd_skynyrd_1032&quot;,&quot;tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/lynyrd-skynyrd/simple-man-tabs-33794&quot;,&quot;date_update&quot;:&quot;1460045897&quot;,&quot;user_id&quot;:15216,&quot;user_iq&quot;:161,&quot;username&quot;:&quot;toughlikepopeye&quot;,&quot;type_name&quot;:&quot;Tab&quot;,&quot;best_pro_tab_url&quot;:&quot;https://tabs.ultimate-guitar.com/tab/lynyrd-skynyrd/simple-man-guitar-pro-224322&quot;}],&quot;recentry_viewed_key&quot;:&quot;tab:30829&quot;,&quot;criticals&quot;:[],&quot;survey&quot;:null},&quot;header_bidding&quot;:{&quot;page_type&quot;:&quot;tab_desktop&quot;,&quot;ad_units&quot;:[{&quot;code&quot;:&quot;ad_cs_2010320_728_90&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_728&quot;,&quot;sizes&quot;:[[728,90]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;top&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[728,90]]}},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434123&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;2&quot;,&quot;siteID&quot;:&quot;179681&quot;,&quot;size&quot;:[728,90],&quot;siteId&quot;:&quot;179681&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-728x90&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591653&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131195&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;728X90&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;712972&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;441934&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_728x90_atf&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_970x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010320_160_600&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_160&quot;,&quot;sizes&quot;:[[160,600]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;side&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[160,600]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434117&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;1&quot;,&quot;siteID&quot;:&quot;177325&quot;,&quot;size&quot;:[160,600],&quot;siteId&quot;:&quot;177325&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-160x600&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591659&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131193&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;160X600&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;712971&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;441934&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_160x600_atf&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_300x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010319_160_600&quot;,&quot;dfpCode&quot;:&quot;UG_BTFR_160&quot;,&quot;sizes&quot;:[[160,600]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;sideBottom&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[160,600]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097784,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;849555&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;siteID&quot;:&quot;179682&quot;,&quot;id&quot;:&quot;03&quot;,&quot;size&quot;:[160,600],&quot;siteId&quot;:&quot;179682&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131225&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;160X600&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;714233&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;467536&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_300x250_btfl&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_300x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010319_300_250&quot;,&quot;dfpCode&quot;:&quot;UG_BTFR_300&quot;,&quot;sizes&quot;:[[1,1],[300,250],[610,300],[535,300],[535,400]],&quot;placementId&quot;:&quot;8549997&quot;,&quot;layoutPlacement&quot;:&quot;bottom&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1],[300,250],[610,300],[535,300],[535,400]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097784,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:8549997,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434119&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;4&quot;,&quot;siteID&quot;:&quot;179683&quot;,&quot;size&quot;:[1,1],&quot;siteId&quot;:&quot;179683&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-300x250&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591661&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131198@300x250&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;467536&quot;}}],&quot;primis&quot;:true},{&quot;code&quot;:&quot;ad_cs_13538099_1_1&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_1x1&quot;,&quot;sizes&quot;:[[1,1]],&quot;layoutPlacement&quot;:&quot;offSide&quot;,&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;dynamic&quot;:true,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1]]}},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;justpremium&quot;,&quot;params&quot;:{&quot;zone&quot;:&quot;93169&quot;}}]},{&quot;code&quot;:&quot;ad_cs_10000000_2_2&quot;,&quot;dfpCode&quot;:&quot;UG_ATG_728_BX_MASTHEAD&quot;,&quot;sizes&quot;:[[1,1]],&quot;placementId&quot;:&quot;10000000&quot;,&quot;layoutPlacement&quot;:&quot;outOfPage&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1]]}},&quot;refresh&quot;:{&quot;enabled&quot;:false},&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[]}]},&quot;template&quot;:{&quot;module&quot;:&quot;tab&quot;,&quot;controller&quot;:&quot;view&quot;,&quot;action&quot;:&quot;index&quot;,&quot;reactAction&quot;:&quot;tab_text&quot;}},&quot;i18n&quot;:{},&quot;user&quot;:{&quot;id&quot;:0,&quot;avatarUrl&quot;:&quot;https://tabs.ultimate-guitar.com/static/users/0/0/0/0.gif?d=d&amp;h=1607222445&quot;,&quot;username&quot;:&quot;Unregistered&quot;,&quot;email&quot;:&quot;&quot;,&quot;usergroupid&quot;:0,&quot;contributor&quot;:{&quot;isContributor&quot;:false,&quot;first_tab&quot;:0},&quot;iq&quot;:0,&quot;tabsCount&quot;:0,&quot;playlistCount&quot;:0,&quot;messagesCount&quot;:0,&quot;rights&quot;:[],&quot;joinDate&quot;:0,&quot;user_status&quot;:&quot;&quot;},&quot;notifications&quot;:{&quot;count_new&quot;:0,&quot;data&quot;:[],&quot;giveaway_id&quot;:0,&quot;texts&quot;:{&quot;markAll&quot;:&quot;Mark all as read&quot;,&quot;settings&quot;:&quot;Settings&quot;,&quot;thanksForVote&quot;:&quot;Thanks for your vote&quot;}},&quot;forms&quot;:[],&quot;theme&quot;:&quot;dark&quot;,&quot;commentForm&quot;:{&quot;is_new&quot;:0},&quot;isUgOffice&quot;:0,&quot;ugSearch&quot;:{&quot;type&quot;:&quot;tabs&quot;,&quot;value&quot;:&quot;&quot;},&quot;sponsorsFooter&quot;:null,&quot;takeover&quot;:{&quot;items&quot;:[{&quot;id&quot;:128,&quot;start_at&quot;:1607245620,&quot;end_at&quot;:1607677620,&quot;date_updated&quot;:1606986420,&quot;county&quot;:[&quot;US&quot;],&quot;page_type&quot;:[&quot;main&quot;,&quot;tab&quot;,&quot;topTabs&quot;,&quot;artist&quot;,&quot;article&quot;,&quot;forum&quot;,&quot;explore&quot;],&quot;platform&quot;:[&quot;desktop&quot;],&quot;track&quot;:{&quot;pixel&quot;:&quot;https://secure.adnxs.com/imptr?id=52141&amp;t=2&quot;,&quot;yandex&quot;:&quot;&quot;,&quot;click_left&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=31df35cab1e92e8b6e6df465ce702887ed51660571c3e7b2f9f3e0963fdcdcb0&amp;url=https%3A%2F%2Fwww.elixirstrings.com%2Fsupport%2Fwhy-elixir-strings%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_us&quot;,&quot;click_right&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=31df35cab1e92e8b6e6df465ce702887ed51660571c3e7b2f9f3e0963fdcdcb0&amp;url=https%3A%2F%2Fwww.elixirstrings.com%2Fsupport%2Fwhy-elixir-strings%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_us&quot;},&quot;style&quot;:{&quot;background&quot;:&quot;&quot;},&quot;extensions&quot;:{&quot;image_left&quot;:&quot;jpeg&quot;,&quot;image_right&quot;:&quot;jpeg&quot;},&quot;image_right&quot;:&quot;/storage/takeover/media/d2d95f59a486dd6ef58571943ba43c6717cf7683_1.jpeg&quot;,&quot;image_left&quot;:&quot;/storage/takeover/media/d2d95f59a486dd6ef58571943ba43c6717cf7683_0.jpeg&quot;},{&quot;id&quot;:131,&quot;start_at&quot;:1607245578,&quot;end_at&quot;:1607677578,&quot;date_updated&quot;:1606986378,&quot;county&quot;:[&quot;DE&quot;],&quot;page_type&quot;:[&quot;main&quot;,&quot;tab&quot;,&quot;topTabs&quot;,&quot;artist&quot;,&quot;article&quot;,&quot;forum&quot;,&quot;explore&quot;],&quot;platform&quot;:[&quot;desktop&quot;],&quot;track&quot;:{&quot;pixel&quot;:&quot;https://secure.adnxs.com/imptr?id=52144&amp;t=2&quot;,&quot;yandex&quot;:&quot;&quot;,&quot;click_left&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=61e0b4d90eb63cc7546811f260f88ffa0d6cd7f30be6045fdeb6be14f6700336&amp;url=https%3A%2F%2Fwww.elixirstrings.de%2Fsupport%2Fwarum-elixir-saiten%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_de&quot;,&quot;click_right&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=61e0b4d90eb63cc7546811f260f88ffa0d6cd7f30be6045fdeb6be14f6700336&amp;url=https%3A%2F%2Fwww.elixirstrings.de%2Fsupport%2Fwarum-elixir-saiten%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_de&quot;},&quot;style&quot;:{&quot;background&quot;:&quot;&quot;},&quot;extensions&quot;:{&quot;image_left&quot;:&quot;jpeg&quot;,&quot;image_right&quot;:&quot;jpeg&quot;},&quot;image_right&quot;:&quot;/storage/takeover/media/b6e74b87fa43f851d53c45fc6265ce7e0499ba50_1.jpeg&quot;,&quot;image_left&quot;:&quot;/storage/takeover/media/b6e74b87fa43f851d53c45fc6265ce7e0499ba50_0.jpeg&quot;},{&quot;id&quot;:134,&quot;start_at&quot;:1607245610,&quot;end_at&quot;:1607677610,&quot;date_updated&quot;:1606986410,&quot;county&quot;:[&quot;FR&quot;],&quot;page_type&quot;:[&quot;main&quot;,&quot;tab&quot;,&quot;topTabs&quot;,&quot;artist&quot;,&quot;article&quot;,&quot;forum&quot;,&quot;explore&quot;],&quot;platform&quot;:[&quot;desktop&quot;],&quot;track&quot;:{&quot;pixel&quot;:&quot;https://secure.adnxs.com/imptr?id=52142&amp;t=2&quot;,&quot;yandex&quot;:&quot;&quot;,&quot;click_left&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=8e98a73711d9ce141365c24d87dca96bea54f5aa172d23b355ccb63b9bd3da6c&amp;url=https%3A%2F%2Fwww.elixirstrings.fr%2Fsupport%2Fpourquoi-jouer-sur-les-cordes-elixir%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_fr&quot;,&quot;click_right&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=8e98a73711d9ce141365c24d87dca96bea54f5aa172d23b355ccb63b9bd3da6c&amp;url=https%3A%2F%2Fwww.elixirstrings.fr%2Fsupport%2Fpourquoi-jouer-sur-les-cordes-elixir%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_fr&quot;},&quot;style&quot;:{&quot;background&quot;:&quot;&quot;},&quot;extensions&quot;:{&quot;image_left&quot;:&quot;jpeg&quot;,&quot;image_right&quot;:&quot;jpeg&quot;},&quot;image_right&quot;:&quot;/storage/takeover/media/2bff1bc7f045e6e58582dab560fbaaec604e39db_1.jpeg&quot;,&quot;image_left&quot;:&quot;/storage/takeover/media/2bff1bc7f045e6e58582dab560fbaaec604e39db_0.jpeg&quot;},{&quot;id&quot;:137,&quot;start_at&quot;:1607245600,&quot;end_at&quot;:1607677600,&quot;date_updated&quot;:1606986400,&quot;county&quot;:[&quot;GB&quot;],&quot;page_type&quot;:[&quot;main&quot;,&quot;tab&quot;,&quot;topTabs&quot;,&quot;artist&quot;,&quot;article&quot;,&quot;forum&quot;,&quot;explore&quot;],&quot;platform&quot;:[&quot;desktop&quot;],&quot;track&quot;:{&quot;pixel&quot;:&quot;https://secure.adnxs.com/imptr?id=52143&amp;t=2&quot;,&quot;yandex&quot;:&quot;&quot;,&quot;click_left&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=bcf260b08eb4c0505146cb3d966f431c6f7dbe1ab3db1ef388eba0c919fb6b97&amp;url=https%3A%2F%2Fwww.elixirstrings.com%2Fsupport%2Fwhy-elixir-strings%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_uk&quot;,&quot;click_right&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=bcf260b08eb4c0505146cb3d966f431c6f7dbe1ab3db1ef388eba0c919fb6b97&amp;url=https%3A%2F%2Fwww.elixirstrings.com%2Fsupport%2Fwhy-elixir-strings%3Fxcmp%3Dfy21-elixirmedia_music-acc_display_guit-string_other_uk&quot;},&quot;style&quot;:{&quot;background&quot;:&quot;&quot;},&quot;extensions&quot;:{&quot;image_left&quot;:&quot;jpeg&quot;,&quot;image_right&quot;:&quot;jpeg&quot;},&quot;image_right&quot;:&quot;/storage/takeover/media/b0d2546a407ffbec0d4c06311d04dcde059c2e81_1.jpeg&quot;,&quot;image_left&quot;:&quot;/storage/takeover/media/b0d2546a407ffbec0d4c06311d04dcde059c2e81_0.jpeg&quot;},{&quot;id&quot;:182,&quot;start_at&quot;:1606844842,&quot;end_at&quot;:1607104042,&quot;date_updated&quot;:1604425642,&quot;county&quot;:[&quot;US&quot;],&quot;page_type&quot;:[&quot;main&quot;,&quot;tab&quot;,&quot;topTabs&quot;,&quot;artist&quot;,&quot;article&quot;,&quot;forum&quot;,&quot;explore&quot;],&quot;platform&quot;:[&quot;desktop&quot;],&quot;track&quot;:{&quot;pixel&quot;:&quot;&quot;,&quot;yandex&quot;:&quot;&quot;,&quot;click_left&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=719e57f043d1d547a303250b086d8577c866579bb0a3ccb18bcb815a428fa3c8&amp;url=https%3A%2F%2Fbit.ly%2F3otMGEu&quot;,&quot;click_right&quot;:&quot;https://www.ultimate-guitar.com/send?ug_from=redirect&amp;hash=719e57f043d1d547a303250b086d8577c866579bb0a3ccb18bcb815a428fa3c8&amp;url=https%3A%2F%2Fbit.ly%2F3otMGEu&quot;},&quot;style&quot;:{&quot;background&quot;:&quot;&quot;},&quot;extensions&quot;:{&quot;image_left&quot;:&quot;jpeg&quot;,&quot;image_right&quot;:&quot;jpeg&quot;},&quot;image_right&quot;:&quot;/storage/takeover/media/60bdd909ae3f6892b5c9d96106ed090d3ffc0e52_1.jpeg&quot;,&quot;image_left&quot;:&quot;/storage/takeover/media/60bdd909ae3f6892b5c9d96106ed090d3ffc0e52_0.jpeg&quot;}],&quot;debug_takeover_id&quot;:0},&quot;interstitial&quot;:false,&quot;customAlerts&quot;:[]},&quot;globalHelpers&quot;:[],&quot;helpers&quot;:{&quot;typeHelper&quot;:{&quot;short&quot;:{&quot;Official&quot;:&quot;OFFICIAL&quot;,&quot;Chords&quot;:&quot;CRD&quot;,&quot;Tabs&quot;:&quot;TAB&quot;,&quot;Pro&quot;:&quot;PRO&quot;,&quot;Power&quot;:&quot;PWR&quot;,&quot;Bass Tabs&quot;:&quot;BASS&quot;,&quot;Drum Tabs&quot;:&quot;DRM&quot;,&quot;Video&quot;:&quot;VID&quot;,&quot;Ukulele Chords&quot;:&quot;UKE&quot;,&quot;Tab Pro&quot;:&quot;TAB PRO&quot;,&quot;Chord Pro&quot;:&quot;CRD PRO&quot;},&quot;filter&quot;:{&quot;Official&quot;:&quot;official&quot;,&quot;Chords&quot;:&quot;chords&quot;,&quot;Tabs&quot;:&quot;tab&quot;,&quot;Pro&quot;:&quot;guitar pro&quot;,&quot;Power&quot;:&quot;power&quot;,&quot;Bass Tabs&quot;:&quot;bass&quot;,&quot;Drum Tabs&quot;:&quot;drums&quot;,&quot;Video&quot;:&quot;video&quot;,&quot;Ukulele Chords&quot;:&quot;ukulele&quot;,&quot;Tab Pro&quot;:&quot;tab pro&quot;,&quot;Chord Pro&quot;:&quot;chord pro&quot;},&quot;full&quot;:{&quot;Official&quot;:&quot;official tab&quot;,&quot;Chords&quot;:&quot;chords&quot;,&quot;Tabs&quot;:&quot;tab&quot;,&quot;Pro&quot;:&quot;guitar pro tab&quot;,&quot;Power&quot;:&quot;power tab&quot;,&quot;Bass Tabs&quot;:&quot;bass tab&quot;,&quot;Drum Tabs&quot;:&quot;drum tab&quot;,&quot;Video&quot;:&quot;video tab&quot;,&quot;Ukulele Chords&quot;:&quot;ukulele chords&quot;,&quot;Tab Pro&quot;:&quot;tab pro&quot;,&quot;Chord Pro&quot;:&quot;chord pro&quot;}}},&quot;cmp&quot;:{&quot;setConsentUrl&quot;:&quot;https://www.ultimate-guitar.com/user/security/consent&quot;},&quot;bidding&quot;:{&quot;analytics&quot;:{&quot;logUrl&quot;:&quot;//track.ultimate-guitar.com/ug/&quot;,&quot;pageType&quot;:&quot;tab_desktop&quot;,&quot;region&quot;:&quot;US&quot;,&quot;device&quot;:&quot;desktop&quot;,&quot;variation&quot;:&quot;&quot;,&quot;hasHardRefresh&quot;:true},&quot;refresh&quot;:{&quot;limit&quot;:20,&quot;maxVisibleTime&quot;:1000,&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;enabled&quot;:true,&quot;hasHardRefresh&quot;:true,&quot;availableBidders&quot;:[&quot;appnexus&quot;,&quot;indexExchange&quot;,&quot;pubmatic&quot;,&quot;rubicon&quot;,&quot;sonobi&quot;,&quot;openx&quot;,&quot;adform&quot;,&quot;aol&quot;,&quot;onemobile&quot;,&quot;brealtime&quot;,&quot;audienceNetwork&quot;,&quot;improvedigital&quot;,&quot;adkernelAdn&quot;,&quot;districtM&quot;,&quot;oftmedia&quot;,&quot;onefiftytwo&quot;,&quot;sortable&quot;,&quot;emx_digital&quot;,&quot;teads&quot;,&quot;smartadserver&quot;,&quot;pulsepoint&quot;,&quot;amx&quot;,&quot;triplelift&quot;],&quot;ignoreChangePageVisibility&quot;:false},&quot;minRefreshCpm&quot;:0.040000000000000000832667268468867405317723751068115234375,&quot;cpmFloor&quot;:0.200000000000000011102230246251565404236316680908203125,&quot;timeout&quot;:2000,&quot;refreshTimeout&quot;:1000,&quot;dfpId&quot;:74268401,&quot;units&quot;:[{&quot;code&quot;:&quot;ad_cs_2010320_728_90&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_728&quot;,&quot;sizes&quot;:[[728,90]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;top&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[728,90]]}},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434123&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;2&quot;,&quot;siteID&quot;:&quot;179681&quot;,&quot;size&quot;:[728,90],&quot;siteId&quot;:&quot;179681&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-728x90&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591653&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131195&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;728X90&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;712972&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;441934&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_728x90_atf&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_970x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010320_160_600&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_160&quot;,&quot;sizes&quot;:[[160,600]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;side&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[160,600]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434117&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;1&quot;,&quot;siteID&quot;:&quot;177325&quot;,&quot;size&quot;:[160,600],&quot;siteId&quot;:&quot;177325&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-160x600&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591659&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131193&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;160X600&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;712971&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;441934&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_160x600_atf&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_300x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010319_160_600&quot;,&quot;dfpCode&quot;:&quot;UG_BTFR_160&quot;,&quot;sizes&quot;:[[160,600]],&quot;placementId&quot;:&quot;7478445&quot;,&quot;layoutPlacement&quot;:&quot;sideBottom&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[160,600]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097784,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:7478445,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;849555&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;siteID&quot;:&quot;179682&quot;,&quot;id&quot;:&quot;03&quot;,&quot;size&quot;:[160,600],&quot;siteId&quot;:&quot;179682&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131225&quot;}},{&quot;bidder&quot;:&quot;pulsepoint&quot;,&quot;params&quot;:{&quot;cf&quot;:&quot;160X600&quot;,&quot;cp&quot;:&quot;562247&quot;,&quot;ct&quot;:&quot;714233&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;467536&quot;}},{&quot;bidder&quot;:&quot;onemobile&quot;,&quot;params&quot;:{&quot;dcn&quot;:&quot;8a9694b8017070f8309df8c44da30024&quot;,&quot;pos&quot;:&quot;ultimate_guitar_us_300x250_btfl&quot;}},{&quot;bidder&quot;:&quot;triplelift&quot;,&quot;params&quot;:{&quot;inventoryCode&quot;:&quot;Ultimate_300x250_Desktop&quot;}}]},{&quot;code&quot;:&quot;ad_cs_2010319_300_250&quot;,&quot;dfpCode&quot;:&quot;UG_BTFR_300&quot;,&quot;sizes&quot;:[[1,1],[300,250],[610,300],[535,300],[535,400]],&quot;placementId&quot;:&quot;8549997&quot;,&quot;layoutPlacement&quot;:&quot;bottom&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1],[300,250],[610,300],[535,300],[535,400]]}},&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;appnexusPlacementId&quot;:12097784,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:8549997,&quot;keywords&quot;:{&quot;is_refresh&quot;:&quot;false&quot;,&quot;artist&quot;:13991,&quot;instr&quot;:&quot;guitar&quot;,&quot;title&quot;:&quot;Stevie Ray Vaughan &amp; Double Trouble - Pride And Joy (tab)&quot;}}},{&quot;bidder&quot;:&quot;adform&quot;,&quot;params&quot;:{&quot;mid&quot;:&quot;434119&quot;}},{&quot;bidder&quot;:&quot;indexExchange&quot;,&quot;params&quot;:{&quot;id&quot;:&quot;4&quot;,&quot;siteID&quot;:&quot;179683&quot;,&quot;size&quot;:[1,1],&quot;siteId&quot;:&quot;179683&quot;}},{&quot;bidder&quot;:&quot;mantis&quot;,&quot;params&quot;:{&quot;property&quot;:&quot;58c8252bdf390a2c0c1dba34&quot;,&quot;zoneId&quot;:&quot;ug-us-300x250&quot;}},{&quot;bidder&quot;:&quot;openx&quot;,&quot;params&quot;:{&quot;delDomain&quot;:&quot;ultimate-guitar-d.openx.net&quot;,&quot;unit&quot;:&quot;538591661&quot;}},{&quot;bidder&quot;:&quot;pubmatic&quot;,&quot;params&quot;:{&quot;publisherId&quot;:&quot;72623&quot;,&quot;adSlot&quot;:&quot;3131198@300x250&quot;}},{&quot;bidder&quot;:&quot;rhythmone&quot;,&quot;params&quot;:{&quot;placementId&quot;:&quot;61405&quot;}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:&quot;15178&quot;,&quot;siteId&quot;:&quot;93918&quot;,&quot;zoneId&quot;:&quot;467536&quot;}}],&quot;primis&quot;:true},{&quot;code&quot;:&quot;ad_cs_13538099_1_1&quot;,&quot;dfpCode&quot;:&quot;UG_ATF_1x1&quot;,&quot;sizes&quot;:[[1,1]],&quot;layoutPlacement&quot;:&quot;offSide&quot;,&quot;refresh&quot;:{&quot;delay&quot;:30000,&quot;delayDeviation&quot;:10000,&quot;maxVisibleTime&quot;:1000,&quot;limit&quot;:20},&quot;dynamic&quot;:true,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1]]}},&quot;appnexusPlacementId&quot;:12097756,&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[{&quot;bidder&quot;:&quot;justpremium&quot;,&quot;params&quot;:{&quot;zone&quot;:&quot;93169&quot;}}]},{&quot;code&quot;:&quot;ad_cs_10000000_2_2&quot;,&quot;dfpCode&quot;:&quot;UG_ATG_728_BX_MASTHEAD&quot;,&quot;sizes&quot;:[[1,1]],&quot;placementId&quot;:&quot;10000000&quot;,&quot;layoutPlacement&quot;:&quot;outOfPage&quot;,&quot;mediaTypes&quot;:{&quot;banner&quot;:{&quot;sizes&quot;:[[1,1]]}},&quot;refresh&quot;:{&quot;enabled&quot;:false},&quot;mediaType&quot;:&quot;banner&quot;,&quot;bids&quot;:[]}],&quot;priceGranularity&quot;:[{&quot;precision&quot;:2,&quot;min&quot;:0,&quot;max&quot;:1,&quot;increment&quot;:0.01000000000000000020816681711721685132943093776702880859375},{&quot;precision&quot;:2,&quot;min&quot;:1,&quot;max&quot;:2,&quot;increment&quot;:0.0200000000000000004163336342344337026588618755340576171875},{&quot;precision&quot;:2,&quot;min&quot;:2,&quot;max&quot;:5,&quot;increment&quot;:0.05000000000000000277555756156289135105907917022705078125},{&quot;precision&quot;:2,&quot;min&quot;:5,&quot;max&quot;:10,&quot;increment&quot;:0.1000000000000000055511151231257827021181583404541015625},{&quot;precision&quot;:2,&quot;min&quot;:10,&quot;max&quot;:20,&quot;increment&quot;:0.200000000000000011102230246251565404236316680908203125},{&quot;precision&quot;:2,&quot;min&quot;:20,&quot;max&quot;:50,&quot;increment&quot;:0.5}],&quot;dynamicLoad&quot;:true,&quot;disableAdx&quot;:false,&quot;apstagEnabled&quot;:true,&quot;isGDPRAvailable&quot;:false,&quot;tcfVersion&quot;:2,&quot;isShowOnTap&quot;:false}}"></div>
+        
+<script defer src="https://tabs.ultimate-guitar.com/static/public/build/ug_react/202012/6laY.95b3c45f7729e8c7060c5b639a08df48.js"></script>
+        <script defer src="https://tabs.ultimate-guitar.com/static/public/build/ug_react/ug~runtime.177adceae2d4ed52806e924d9fb79b1e.js"></script>
+<script defer src="https://tabs.ultimate-guitar.com/static/public/build/ug_react/202012/oNoF.aa18cb36f38bac82163ccafd7861c4ad.js"></script>
+        <script type="text/javascript">
+
+// GA start
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//tabs.ultimate-guitar.com/static/vendor/ga/analytics_ver1607171785.js','ga');
+
+ga('create', 'UA-9160560-1', 'auto');
+
+
+ga('set', 'dimension5', 'https');
+
+
+
+
+        ga('create', 'UA-9160560-20', 'auto', {"sampleRate":10,"name":"sampledTracker"});
+
+    
+    ga('sampledTracker.set', 'dimension5', 'https');
+
+            ga('create', 'UA-9160560-18', 'auto', {"name":"reactTracker"});
+
+    
+    ga('reactTracker.set', 'dimension5', 'https');
+
+    
+
+var ga_client_id = null;
+
+ga(function(tracker) {
+    ga_client_id = tracker.get('clientId');
+    ga('set', 'dimension4', ga_client_id);
+
+            ga('sampledTracker.set', 'dimension4', ga.getByName('sampledTracker').get('clientId'));
+
+                var ga_client_id_value = ga.getByName('sampledTracker').get('clientId');
+        document.cookie = 'ga_client_id=' + ga_client_id_value + '; path=/; domain=.ultimate-guitar.com';
+                    ga('reactTracker.set', 'dimension4', ga.getByName('reactTracker').get('clientId'));
+
+            });
+
+ga('send', 'pageview');
+    ga('sampledTracker.send', 'pageview');
+    ga('reactTracker.send', 'pageview');
+// GA end
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+                            w.yaCounter18746557 = new Ya.Metrika({"clickmap":true,"trackLinks":true,"triggerEvent":true,"accurateTrackBounce":true,"id":18746557,"webvisor":true});
+
+                
+                                                                
+             var isPwa =  (
+                 (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) ||
+                 window.navigator.standalone === true
+             );
+             var params = {"has_web_pro_access":0,"is_registered":0,"rights":0,"u_id":"SA==","type":"Tabs","auth":"None"};
+             params.pwa = isPwa ? 1 : 0;
+             w.yaCounter18746557.params(params)
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//tabs.ultimate-guitar.com/static/vendor/metrica/watch_ver1607171785.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+
+<noscript>
+    <img src="//mc.yandex.ru/watch/18746557" style="position:absolute; left:-9999px;" alt="" />
+</noscript>
+                    <script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"MusicRecording",
+  "byArtist": {
+    "@context":"http://schema.org",
+    "@type":"MusicGroup",
+    "name":"Stevie Ray Vaughan & Double Trouble",
+    "url":"https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991"
+  },
+  "name":"Pride And Joy",
+  "url":"https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-30829"
+  ,"datePublished": "2002-06-08T20:00:00-04:00"
+  ,"dateModified": "2017-07-13T08:23:01-04:00"
+  ,"aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "357", "bestRating": "5", "worstRating": "1" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"CreativeWork",
+  "name":"Pride And Joy"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+   {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+    "@id": "https://www.ultimate-guitar.com/bands/s.htm",
+    "name": "S"
+    }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item":
+   {
+    "@id": "https://www.ultimate-guitar.com/artist/stevie_ray_vaughan_double_trouble_13991",
+    "name": "Stevie Ray Vaughan & Double Trouble"
+    }
+  },
+  {
+   "@type": "ListItem",
+  "position": 3,
+  "item":
+   {
+     "@id": "https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-30829",
+     "name": "Pride And Joy"
+   }
+  }
+ ]
+}
+</script>
+        </body>
+</html>
