@@ -1,10 +1,13 @@
-import urllib.request
+import requests
+#import urllib.request
 
-url = "https://tabs.ultimate-guitar.com/tab/stevie-ray-vaughan-double-trouble/pride-and-joy-tabs-30829"
+#Takes url as a string, returns html as a string
+def pull_url(url):
 
-response = urllib.request.urlopen(url)
-web_content = response.read()
+    response = requests.get(url)
+    #urllib.request.urlopen(url)
+    html = response.text
 
-f = open("webpage.txt", "wb")
-f.write(web_content)
-f.close()
+    html = html.replace('\n', '')
+
+    return html
